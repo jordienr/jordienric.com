@@ -8,7 +8,6 @@ import {
   FaLinkedinIn,
   FaGithubAlt,
   FaTwitter,
-  FaEnvelope,
   FaSpotify,
 } from "react-icons/fa";
 import { GiAstronautHelmet } from "react-icons/gi";
