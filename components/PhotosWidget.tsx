@@ -34,7 +34,7 @@ export default function PhotosWidget() {
     }
   }
 
-  function getMapUrl(imgExif: any): string | null {
+  function getMapUrl(imgExif: any): string {
     // https://www.google.com/maps/search/N+47.75996111111111+E+13.361622222222222?sa=X&ved=2ahUKEwiC86zkhfn6AhWZgs4BHYbxBMYQ8gF6BAgJEAE
 
     const latRef = imgExif.tags.GPSLatitudeRef;
