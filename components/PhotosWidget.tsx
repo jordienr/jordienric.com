@@ -17,7 +17,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function PhotosWidget() {
   const [photoIndex, setPhotoIndex] = useState(0);
-  const [showInfo, setShowInfo] = useState(true);
+  const [showInfo, setShowInfo] = useState(false);
 
   function nextPhoto() {
     if (photoIndex < photos.length - 1) {

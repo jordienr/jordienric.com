@@ -81,14 +81,22 @@ export default function Home() {
           initial={{ opacity: 0, scale: 0.7, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{
-            duration: 0.15,
+            duration: 0.4,
             type: "spring",
           }}
         >
           <div className="p-4 rounded-2xl bg-gradient-to-b from-white to-slate-50 border-slate-200 shadow-sm border">
-            <div className="text-orange-500 rounded-xl text-2xl">
+            <motion.div
+              animate={{ rotateX: [0, 360, 0] }}
+              transition={{
+                duration: 1.6,
+                type: "spring",
+                delay: 0.2,
+              }}
+              className="text-orange-500 rounded-xl text-2xl"
+            >
               <IoGlassesOutline />
-            </div>
+            </motion.div>
             <p className="mt-2 text-slate-800 font-serif">
               {about.split("").map((char, index) => {
                 return (
