@@ -11,3 +11,7 @@
   background-size: 24px 24px;
   background-position: -0 -0;
 }
+
+.photo-btn {
+  @apply p-2 rounded-md text-slate-500 text-xs hover:bg-blue-100 hover:text-blue-500 transition;
+}

@@ -1,0 +1,3185 @@
+[
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090017,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.75996111111111,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.361622222222222,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 735.9700787401575,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 3.786961382987873,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 311.50244140625,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 311.50244140625,
+      "GPSDateStamp": "2022:10:16",
+      "GPSHPositioningError": 4.749398625429553,
+      "ExposureTime": 0.0008695652173913044,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665919514,
+      "CreateDate": 1665919514,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.167418,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 8.131080909437317,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        1995,
+        1505,
+        1098,
+        659
+      ],
+      "SubSecTimeOriginal": "559",
+      "SubSecTimeDigitized": "559",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 2284,
+      "width": 1713
+    },
+    "app1Offset": 6,
+    "path": "/photos/1-IMG_1845.jpg",
+    "name": "1-IMG_1845.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090029,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.77232222222222,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.377777777777778,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 541.5029726516052,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 275.80029296875,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 275.80029296875,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 11.819949232721818,
+      "ExposureTime": 0.00625,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665846612,
+      "CreateDate": 1665846612,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 7.321928,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 6.997418257953812,
+      "ExposureCompensation": 0,
+      "MeteringMode": 3,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2266,
+        1308,
+        747,
+        743
+      ],
+      "SubSecTimeOriginal": "839",
+      "SubSecTimeDigitized": "839",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 2361,
+      "width": 1771
+    },
+    "app1Offset": 6,
+    "path": "/photos/16-IMG_1651.jpg",
+    "name": "16-IMG_1651.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 46.66289722222222,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 10.588886111111112,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 973.2899746192893,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 197.51722706517228,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 197.51722706517228,
+      "GPSDateStamp": "2022:10:14",
+      "GPSHPositioningError": 6.8445968979035285,
+      "ExposureTime": 0.0011111111111111111,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665743890,
+      "CreateDate": 1665743890,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 9.813781,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 9.182972338706575,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "431",
+      "SubSecTimeDigitized": "431",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 2969,
+      "width": 2226
+    },
+    "app1Offset": 6,
+    "path": "/photos/18-IMG_1541.jpg",
+    "name": "18-IMG_1541.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090029,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.748644444444444,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.355897222222222,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1194.5456852791879,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 3.7226128604911852,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 200.12318419523532,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 200.12318419523532,
+      "GPSDateStamp": "2022:10:12",
+      "GPSHPositioningError": 4.262887909106325,
+      "ExposureTime": 0.00015625,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665579977,
+      "CreateDate": 1665579977,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 12.643856,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 10.442477833438602,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "998",
+      "SubSecTimeDigitized": "998",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/26-IMG_1316.jpg",
+    "name": "26-IMG_1316.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.851975,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.352247222222221,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 482.9271047227926,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 144.9912568306011,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 144.9912568306011,
+      "GPSDateStamp": "2022:10:11",
+      "GPSHPositioningError": 4.52583407144966,
+      "ExposureTime": 0.000052631578947368424,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 80,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665490336,
+      "CreateDate": 1665490336,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 14.213712,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 11.62459122203098,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2011,
+        1508,
+        2323,
+        1330
+      ],
+      "SubSecTimeOriginal": "642",
+      "SubSecTimeDigitized": "642",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 24,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3148,
+      "width": 1891
+    },
+    "app1Offset": 6,
+    "path": "/photos/28-IMG_1156.jpg",
+    "name": "28-IMG_1156.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 39.84423888888889,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 3.094152777777778,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 24.40429298517371,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 11.651315136476427,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 113.7666244458518,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 113.7666244458518,
+      "GPSDateStamp": "2022:09:18",
+      "GPSHPositioningError": 4.7692429396408516,
+      "ExposureTime": 0.001,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1663494930,
+      "CreateDate": 1663494930,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 9.965784,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 9.647668023712592,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "396",
+      "SubSecTimeDigitized": "396",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 2141,
+      "width": 1606
+    },
+    "app1Offset": 6,
+    "path": "/photos/39-IMG_0142.jpg",
+    "name": "39-IMG_0142.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090028,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.723594444444444,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.480077777777778,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 531.4836044410018,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0.09644583613194964,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 158.83807369101487,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 158.83807369101487,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 4.230392627435922,
+      "ExposureTime": 0.005555555555555556,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665854407,
+      "CreateDate": 1665854407,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 7.491853,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 6.981393841166937,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "439",
+      "SubSecTimeDigitized": "439",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3230,
+      "width": 2422
+    },
+    "app1Offset": 6,
+    "path": "/photos/10-IMG_1748.jpg",
+    "name": "10-IMG_1748.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090027,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.723594444444444,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.480069444444444,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 537.8374455732946,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 222.97987349051178,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 222.97987349051178,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 4.382893240070673,
+      "ExposureTime": 0.0008695652173913044,
+      "FNumber": 2.2,
+      "ExposureProgram": 2,
+      "ISO": 50,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665854257,
+      "CreateDate": 1665854257,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.167418,
+      "ApertureValue": 2.275007,
+      "BrightnessValue": 9.623970722781335,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 2.22,
+      "SubjectArea": [
+        2015,
+        1511,
+        2323,
+        1330
+      ],
+      "SubSecTimeOriginal": "826",
+      "SubSecTimeDigitized": "826",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 14,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 2.22mm f/2.2"
+    },
+    "imageSize": {
+      "height": 3609,
+      "width": 2707
+    },
+    "app1Offset": 6,
+    "path": "/photos/11-IMG_1724.jpg",
+    "name": "11-IMG_1724.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090026,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.72296388888889,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.484455555555554,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 544.1112852664577,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 201.658935546875,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 201.658935546875,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 4.72635614337742,
+      "ExposureTime": 0.002380952380952381,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665853678,
+      "CreateDate": 1665853678,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 8.714246,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 8.02450740921674,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "690",
+      "SubSecTimeDigitized": "690",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3959,
+      "width": 2969
+    },
+    "app1Offset": 6,
+    "path": "/photos/13-IMG_1700.jpg",
+    "name": "13-IMG_1700.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090029,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.26220555555555,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 11.394972222222222,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 586.4229195088677,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 342.36007702182286,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 342.36007702182286,
+      "GPSDateStamp": "2022:10:14",
+      "GPSHPositioningError": 9.59894607018724,
+      "ExposureTime": 0.00028571428571428574,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665756529,
+      "CreateDate": 1665756529,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 11.773139,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 9.845678691928368,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "836",
+      "SubSecTimeDigitized": "836",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3277,
+      "width": 2458
+    },
+    "app1Offset": 6,
+    "path": "/photos/17-IMG_1569.jpg",
+    "name": "17-IMG_1569.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090017,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.758697222222224,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.360963888888888,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 811.007285974499,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 3.6017787458027044,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 33.72489924653934,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 33.72489924653934,
+      "GPSDateStamp": "2022:10:16",
+      "GPSHPositioningError": 15.603521804925023,
+      "ExposureTime": 0.004,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665919470,
+      "CreateDate": 1665919470,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 7.965784,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 7.515979490061109,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "901",
+      "SubSecTimeDigitized": "901",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3384,
+      "width": 2538
+    },
+    "app1Offset": 6,
+    "path": "/photos/2-IMG_1842.jpg",
+    "name": "2-IMG_1842.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090022,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.76871944444444,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.351769444444445,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 652,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 64.33367918655323,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 64.33367918655323,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 10,
+      "ExposureTime": 0.022222222222222223,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 1000,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665857932,
+      "CreateDate": 1665857932,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 5.491853,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": -0.49118341155569695,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2009,
+        1505,
+        2208,
+        1324
+      ],
+      "SubSecTimeOriginal": "436",
+      "SubSecTimeDigitized": "436",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 24,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 2835,
+      "width": 2126
+    },
+    "app1Offset": 6,
+    "path": "/photos/7-IMG_1790.jpg",
+    "name": "7-IMG_1790.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090032,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 46.820822222222226,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 10.361611111111111,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1234.0218281036834,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 195.4153137340939,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 195.4153137340939,
+      "GPSDateStamp": "2022:10:13",
+      "GPSHPositioningError": 4.732091801251835,
+      "ExposureTime": 0.0008333333333333334,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665679109,
+      "CreateDate": 1665679109,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.228819,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 9.485292007461616,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "494",
+      "SubSecTimeDigitized": "494",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3024,
+      "width": 4032
+    },
+    "app1Offset": 6,
+    "path": "/photos/21-IMG_1465.jpg",
+    "name": "21-IMG_1465.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090027,
+      "ExposureTime": 0.0035714285714285713,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665583067,
+      "CreateDate": 1665583067,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 8.129283,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 7.694001555512346,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "575",
+      "SubSecTimeDigitized": "575",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/23-IMG_1366.jpg",
+    "name": "23-IMG_1366.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090029,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.72269722222222,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.484819444444444,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 542.5583333333333,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 288.1860962566845,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 288.1860962566845,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 4.72590957527782,
+      "ExposureTime": 0.0008695652173913044,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665853578,
+      "CreateDate": 1665853578,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.167418,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 9.66237656718074,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "525",
+      "SubSecTimeDigitized": "525",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/15-IMG_1689.jpg",
+    "name": "15-IMG_1689.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090028,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.72281944444445,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.484622222222221,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 544.1188191881919,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0.8710656201958087,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 267.82815533980585,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 267.82815533980585,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 4.7218753613134465,
+      "ExposureTime": 0.0001282051282051282,
+      "FNumber": 2.2,
+      "ExposureProgram": 2,
+      "ISO": 50,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665853603,
+      "CreateDate": 1665853603,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 12.929258,
+      "ApertureValue": 2.275007,
+      "BrightnessValue": 11.244946492271106,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 2.22,
+      "SubjectArea": [
+        2015,
+        1511,
+        2323,
+        1330
+      ],
+      "SubSecTimeOriginal": "299",
+      "SubSecTimeDigitized": "299",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 14,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 2.22mm f/2.2"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/14-IMG_1692.jpg",
+    "name": "14-IMG_1692.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090028,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.74256166666667,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.354218333333334,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1491,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 201.0174560546875,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 201.0174560546875,
+      "GPSHPositioningError": 4.732181571815718,
+      "ExposureTime": 0.00008333333333333333,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665580921,
+      "CreateDate": 1665580921,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 13.550747,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 11.266545000480262,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "916",
+      "SubSecTimeDigitized": "916",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 2268
+    },
+    "app1Offset": 6,
+    "path": "/photos/25-IMG_1332.jpg",
+    "name": "25-IMG_1332.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.51088333333333,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 14.060902777777779,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 652,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 14.507333767926989,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 224.77984621610685,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 224.77984621610685,
+      "ExposureTime": 0.0008695652173913044,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665419389,
+      "CreateDate": 1665419389,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.167418,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 9.661375043772615,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2005,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "618",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "SceneCaptureType": 0,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 2268
+    },
+    "app1Offset": 6,
+    "path": "/photos/29-IMG_1087.jpg",
+    "name": "29-IMG_1087.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 39.54107777777777,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 2.7036861111111112,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1.581960245848045,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0.16051943588673548,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 269.8782654127482,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 269.8782654127482,
+      "GPSDateStamp": "2022:09:26",
+      "GPSHPositioningError": 4.785169321375987,
+      "ExposureTime": 0.0015625,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1664221145,
+      "CreateDate": 1664221145,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 9.321928,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 7.400048736901957,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "165",
+      "SubSecTimeDigitized": "165",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3137,
+      "width": 2352
+    },
+    "app1Offset": 6,
+    "path": "/photos/37-IMG_0395.jpg",
+    "name": "37-IMG_0395.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090017,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.74250277777778,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.353383333333333,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1492.4315041452824,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 210.93176279447604,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 210.93176279447604,
+      "GPSDateStamp": "2022:10:16",
+      "GPSHPositioningError": 4.485116742281731,
+      "ExposureTime": 0.004545454545454545,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665917571,
+      "CreateDate": 1665917571,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 7.78136,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 7.835579293344289,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2002,
+        1484,
+        2305,
+        1308
+      ],
+      "SubSecTimeOriginal": "885",
+      "SubSecTimeDigitized": "885",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "DigitalZoomRatio": 2.166189111747851,
+      "FocalLengthIn35mmFormat": 167,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3661,
+      "width": 2746
+    },
+    "app1Offset": 6,
+    "path": "/photos/4-IMG_1826.jpg",
+    "name": "4-IMG_1826.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090022,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.742472222222226,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.353519444444444,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1485.2671190623073,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 222.56034858387798,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 222.56034858387798,
+      "GPSDateStamp": "2022:10:16",
+      "GPSHPositioningError": 9.160517980249674,
+      "ExposureTime": 0.0015625,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665917548,
+      "CreateDate": 1665917548,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 9.321928,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 8.892425115207374,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "800",
+      "SubSecTimeDigitized": "800",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3324,
+      "width": 2493
+    },
+    "app1Offset": 6,
+    "path": "/photos/5-IMG_1825.jpg",
+    "name": "5-IMG_1825.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.54014722222222,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 15.061302777777778,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 715.6720160481444,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 252.54631024096386,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 252.54631024096386,
+      "GPSDateStamp": "2022:10:08",
+      "GPSHPositioningError": 66.67548226509022,
+      "ExposureTime": 0.0008695652173913044,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665233169,
+      "CreateDate": 1665233169,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.167418,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 8.033838100579548,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "445",
+      "SubSecTimeDigitized": "445",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3024,
+      "width": 1638
+    },
+    "app1Offset": 6,
+    "path": "/photos/36-IMG_0761.jpg",
+    "name": "36-IMG_0761.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090026,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.723911111111114,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.478441666666667,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 545.1443965517242,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 242.55403144864502,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 242.55403144864502,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 69.57078491818828,
+      "ExposureTime": 0.002,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665854597,
+      "CreateDate": 1665854597,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 8.965784,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 8.736572052401748,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "382",
+      "SubSecTimeDigitized": "382",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/9-IMG_1751.jpg",
+    "name": "9-IMG_1751.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 46.82086944444445,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 10.361791666666667,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1232.576171875,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0.08861964200739413,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 152.89419544452608,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 152.89419544452608,
+      "GPSDateStamp": "2022:10:13",
+      "GPSHPositioningError": 4.4516273419016565,
+      "ExposureTime": 0.01,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665679054,
+      "CreateDate": 1665679054,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 6.643856,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 5.556630276305963,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "177",
+      "SubSecTimeDigitized": "177",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/22-IMG_1457.jpg",
+    "name": "22-IMG_1457.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090031,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.798138888888886,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.426380555555555,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 535.7350107066381,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 179.46556076451498,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 179.46556076451498,
+      "GPSDateStamp": "2022:10:11",
+      "GPSHPositioningError": 4.799741393243899,
+      "ExposureTime": 0.003125,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 80,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665494267,
+      "CreateDate": 1665494267,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 8.321928,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 5.908068533474225,
+      "ExposureCompensation": 0,
+      "MeteringMode": 3,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        1620,
+        2055,
+        747,
+        749
+      ],
+      "SubSecTimeOriginal": "412",
+      "SubSecTimeDigitized": "412",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 24,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 2103,
+      "width": 2103
+    },
+    "app1Offset": 6,
+    "path": "/photos/27-IMG_1179.jpg",
+    "name": "27-IMG_1179.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090034,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.58748888888889,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 14.536919444444445,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 618.7147132169576,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 101.977783203125,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 101.977783203125,
+      "GPSDateStamp": "2022:10:10",
+      "GPSHPositioningError": 4.718902965735675,
+      "ExposureTime": 0.0004761904761904762,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665416540,
+      "CreateDate": 1665416540,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 11.036174,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 8.872432432432433,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "242",
+      "SubSecTimeDigitized": "242",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3957,
+      "width": 2968
+    },
+    "app1Offset": 6,
+    "path": "/photos/30-IMG_1078.jpg",
+    "name": "30-IMG_1078.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.54280555555555,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 15.057658333333334,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 773.0969432314411,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 218.33761598857959,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 218.33761598857959,
+      "GPSDateStamp": "2022:10:08",
+      "GPSHPositioningError": 45.61042392218086,
+      "ExposureTime": 0.0015625,
+      "FNumber": 2.2,
+      "ExposureProgram": 2,
+      "ISO": 40,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665234462,
+      "CreateDate": 1665234462,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 9.321928,
+      "ApertureValue": 2.275007,
+      "BrightnessValue": 8.866743737957611,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 2.22,
+      "SubjectArea": [
+        1568,
+        1425,
+        160,
+        160
+      ],
+      "SubSecTimeOriginal": "022",
+      "SubSecTimeDigitized": "022",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 14,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 2.22mm f/2.2"
+    },
+    "imageSize": {
+      "height": 3024,
+      "width": 2315
+    },
+    "app1Offset": 6,
+    "path": "/photos/34-IMG_0791.jpg",
+    "name": "34-IMG_0791.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090026,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.723225,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.483172222222223,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 543.0849335302806,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 1.2623713520372197,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 183.70811465482439,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 183.70811465482439,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 4.730170003107107,
+      "ExposureTime": 0.0006666666666666666,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665853971,
+      "CreateDate": 1665853971,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.550747,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 8.442628936558648,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "009",
+      "SubSecTimeDigitized": "009",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/12-IMG_1718.jpg",
+    "name": "12-IMG_1718.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090029,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.74259166666667,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.353652777777777,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1489.5404984423676,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0.39218574789472527,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 296.4206236711552,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 296.4206236711552,
+      "GPSDateStamp": "2022:10:12",
+      "GPSHPositioningError": 6.338204742460062,
+      "ExposureTime": 0.0002702702702702703,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665580985,
+      "CreateDate": 1665580985,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 11.85331,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 9.639507439712673,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "145",
+      "SubSecTimeDigitized": "145",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3449,
+      "width": 2587
+    },
+    "app1Offset": 6,
+    "path": "/photos/24-IMG_1336.jpg",
+    "name": "24-IMG_1336.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090024,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.74248055555556,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.353497222222222,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1387.7239669421488,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 211.46037296037295,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 211.46037296037295,
+      "GPSDateStamp": "2022:10:16",
+      "GPSHPositioningError": 9.492289749902811,
+      "ExposureTime": 0.00028571428571428574,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665917546,
+      "CreateDate": 1665917546,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 11.773139,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 9.742429814882923,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2008,
+        1510,
+        1159,
+        664
+      ],
+      "SubSecTimeOriginal": "151",
+      "SubSecTimeDigitized": "151",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "DigitalZoomRatio": 1.6153846153846154,
+      "FocalLengthIn35mmFormat": 78,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/6-IMG_1824.jpg",
+    "name": "6-IMG_1824.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090033,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 39.73606111111111,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 3.336302777777778,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 227.46722600943892,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0.03276922555396941,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 191.12628170534268,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 191.12628170534268,
+      "GPSDateStamp": "2022:09:18",
+      "GPSHPositioningError": 3.2203734946768283,
+      "ExposureTime": 0.000125,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1663503601,
+      "CreateDate": 1663503601,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 12.965784,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 10.963524076039757,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "797",
+      "SubSecTimeDigitized": "797",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/38-IMG_0187.jpg",
+    "name": "38-IMG_0187.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090018,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.743297222222225,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.352266666666667,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1474.8720888570406,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 60.345195729537366,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 60.345195729537366,
+      "GPSDateStamp": "2022:10:16",
+      "GPSHPositioningError": 13.134943396226415,
+      "ExposureTime": 0.004545454545454545,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665918670,
+      "CreateDate": 1665918670,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 7.78136,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 7.279995966928817,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "465",
+      "SubSecTimeDigitized": "465",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3404,
+      "width": 2553
+    },
+    "app1Offset": 6,
+    "path": "/photos/3-IMG_1834.jpg",
+    "name": "3-IMG_1834.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 46.80922777777778,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 10.53581111111111,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 1371.1005110732538,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 34.52854921128638,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 34.52854921128638,
+      "GPSDateStamp": "2022:10:14",
+      "GPSHPositioningError": 20.894101674460703,
+      "ExposureTime": 0.0017543859649122807,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665740626,
+      "CreateDate": 1665740626,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 9.154818,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 6.91835381487048,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "755",
+      "SubSecTimeDigitized": "755",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3724,
+      "width": 2793
+    },
+    "app1Offset": 6,
+    "path": "/photos/19-IMG_1525.jpg",
+    "name": "19-IMG_1525.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090029,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 39.53939722222222,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 2.7062444444444447,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 5.9637832699619775,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 274.1597289448209,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 274.1597289448209,
+      "GPSDateStamp": "2022:09:16",
+      "GPSHPositioningError": 4.725726681127982,
+      "ExposureTime": 0.0005555555555555556,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 32,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1663357379,
+      "CreateDate": 1663357379,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.813781,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 10.517406948482105,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "803",
+      "SubSecTimeDigitized": "803",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 3676,
+      "width": 2941
+    },
+    "app1Offset": 6,
+    "path": "/photos/40-IMG_0048.jpg",
+    "name": "40-IMG_0048.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090031,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.59881666666667,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 15.682972222222222,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 798,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 9.620111111111111,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 20.246078496260505,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 20.246078496260505,
+      "GPSDateStamp": "2022:10:09",
+      "GPSHPositioningError": 10,
+      "ExposureTime": 0.0007692307692307692,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665309351,
+      "CreateDate": 1665309351,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 10.344296,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 8.145187857871205,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "848",
+      "SubSecTimeDigitized": "848",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/33-IMG_0889.jpg",
+    "name": "33-IMG_0889.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090031,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.66477222222222,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 15.53076388888889,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 776.6605839416059,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 230.39517210549843,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 230.39517210549843,
+      "GPSDateStamp": "2022:10:09",
+      "GPSHPositioningError": 5663.542579075426,
+      "ExposureTime": 0.00125,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665319657,
+      "CreateDate": 1665319657,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 9.643856,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 7.324822977959509,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "689",
+      "SubSecTimeDigitized": "689",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/31-IMG_0928.jpg",
+    "name": "31-IMG_0928.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090022,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.723888888888894,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 13.47733888888889,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 533.9667863554757,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 246.57476823861347,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 246.57476823861347,
+      "GPSDateStamp": "2022:10:15",
+      "GPSHPositioningError": 36.74208086531033,
+      "ExposureTime": 0.00045454545454545455,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665854690,
+      "CreateDate": 1665854690,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 11.103288,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 8.900943896489553,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "583",
+      "SubSecTimeDigitized": "583",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/8-IMG_1758.jpg",
+    "name": "8-IMG_1758.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090031,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.54318055555555,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 15.058322222222223,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 773.9234675371781,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0.5932691142614807,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 207.38822922044398,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 207.38822922044398,
+      "GPSDateStamp": "2022:10:08",
+      "GPSHPositioningError": 4.7287233556985715,
+      "ExposureTime": 0.01,
+      "FNumber": 2.8,
+      "ExposureProgram": 2,
+      "ISO": 80,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665234173,
+      "CreateDate": 1665234173,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 6.643856,
+      "ApertureValue": 2.970854,
+      "BrightnessValue": 4.317431826026924,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 9,
+      "SubjectArea": [
+        2011,
+        1518,
+        2323,
+        1333
+      ],
+      "SubSecTimeOriginal": "604",
+      "SubSecTimeDigitized": "604",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 77,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/35-IMG_0780.jpg",
+    "name": "35-IMG_0780.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090030,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.68427777777777,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 15.546919444444445,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 791.2548828125,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 29.507703777335983,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 29.507703777335983,
+      "GPSDateStamp": "2022:10:09",
+      "GPSHPositioningError": 1141.0925394548062,
+      "ExposureTime": 0.004,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [
+          48,
+          50,
+          51,
+          50
+        ]
+      },
+      "DateTimeOriginal": 1665318005,
+      "CreateDate": 1665318005,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 7.965784,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 5.770045580021827,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [
+        2017,
+        1508,
+        1161,
+        665
+      ],
+      "SubSecTimeOriginal": "278",
+      "SubSecTimeDigitized": "278",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [
+          1
+        ]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [
+        2.220000028611935,
+        9,
+        1.7799999713880652,
+        2.8
+      ],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 4032,
+      "width": 3024
+    },
+    "app1Offset": 6,
+    "path": "/photos/32-IMG_0914.jpg",
+    "name": "32-IMG_0914.jpg"
+  }
+]

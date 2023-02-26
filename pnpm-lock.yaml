@@ -8,6 +8,7 @@ specifiers:
   autoprefixer: ^10.4.13
   eslint: 8.33.0
   eslint-config-next: 13.1.6
+  exif-parser: ^0.1.12
   framer-motion: ^9.1.6
   next: 13.2.1
   postcss: ^8.4.21
@@ -25,6 +26,7 @@ dependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   eslint: 8.33.0
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
+  exif-parser: 0.1.12
   framer-motion: 9.1.6_biqbaboplfbrettd7655fr4n2y
   next: 13.2.1_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.21
@@ -1134,6 +1136,10 @@ packages:
   /esutils/2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /exif-parser/0.1.12:
+    resolution: {integrity: sha512-c2bQfLNbMzLPmzQuOr8fy0csy84WmwnER81W88DzTp9CYNPJ6yzOj2EZAh9pywYpqHnshVLHQJ8WzldAyfY+Iw==}
     dev: false
 
   /fast-deep-equal/3.1.3:

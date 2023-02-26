@@ -16,6 +16,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "exif-parser": "^0.1.12",
     "framer-motion": "^9.1.6",
     "next": "13.2.1",
     "postcss": "^8.4.21",
