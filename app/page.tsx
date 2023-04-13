@@ -266,7 +266,7 @@ export default function Home() {
           >
             <Link
               target="_blank"
-              href="https://www.notion.so/jordienr/Jordi-Enric-UI-Portfolio-ac3517bcd82544289caf07c4603bddfd?pvs=4"
+              href="https://jordienr.notion.site/Jordi-Enric-UI-Portfolio-ac3517bcd82544289caf07c4603bddfd"
             >
               <div className="h-16 w-16 rounded-2xl flex justify-center items-center text-2xl bg-gradient-to-b from-orange-100 to-orange-300 text-orange-600 font-semibold border border-orange-300 drop-shadow-sm">
                 UI
