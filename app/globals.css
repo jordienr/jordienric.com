@@ -15,3 +15,11 @@
 .photo-btn {
   @apply p-2 rounded-md text-slate-500 text-xs hover:bg-blue-100 hover:text-blue-500 transition;
 }
+
+.experiment {
+  @apply bg-gradient-to-b from-white to-slate-50 w-40 h-40 rounded-2xl shadow-sm border-slate-200 min-h-[80px] flex justify-center items-center;
+}
+
+.highlight {
+  @apply shadow-inner shadow-slate-500;
+}

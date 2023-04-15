@@ -10,6 +10,7 @@ specifiers:
   eslint-config-next: 13.1.6
   exif-parser: ^0.1.12
   framer-motion: ^9.1.6
+  lucide-react: ^0.145.0
   next: 13.2.1
   postcss: ^8.4.21
   react: 18.2.0
@@ -28,6 +29,7 @@ dependencies:
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
   exif-parser: 0.1.12
   framer-motion: 9.1.6_biqbaboplfbrettd7655fr4n2y
+  lucide-react: 0.145.0_react@18.2.0
   next: 13.2.1_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.21
   react: 18.2.0
@@ -1706,6 +1708,14 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: false
+
+  /lucide-react/0.145.0_react@18.2.0:
+    resolution: {integrity: sha512-0bwi3T/DVe0Gn7HRDmtuf88j6m/+GFbQgnsoYnLX1jKnEJ/tGnP1KQY58Nfxp2gih1lOkwekJ4Hw141TNInLzA==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /merge2/1.4.1:
