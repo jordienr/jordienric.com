@@ -125,6 +125,57 @@ export default function Home() {
         </motion.div>
       </section>
 
+      <section id="workWidget" className="my-4 mt-12">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.7, y: 10 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{
+            duration: 0.4,
+            type: "spring",
+          }}
+        >
+          <div className="p-4 rounded-2xl bg-gradient-to-b from-white to-slate-50 border-slate-200 shadow-sm border">
+            <div className="flex gap-4">
+              <Image
+                className="rounded-full border border-blue-200 h-10 w-10"
+                src="/clidrive.jpeg"
+                alt="NinetyNine logo"
+                width={40}
+                height={40}
+              />
+
+              <div className="flex flex-col">
+                <h3 className="font-serif">
+                  Currently Frontend Lead at Clidrive
+                </h3>
+                <p className="text-xs text-slate-600">
+                  Building stuff with NextJS, TypeScript, TRPc, Tailwind, Zod,
+                  Turborepo
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 mt-4">
+              <Image
+                className="rounded-full h-10 w-10"
+                src="/ninetyninej.jpeg"
+                alt="NinetyNine logo"
+                width={40}
+                height={40}
+              />
+              <div className="flex flex-col">
+                <h3 className="font-serif">
+                  Previously, Frontend Lead at Ninety Nine
+                </h3>
+                <p className="text-xs text-slate-600">
+                  Built component libraries and a brokerage web platform
+                </p>
+              </div>
+            </div>
+          </div>
+          <p className="text-xs text-center mt-1">Work</p>
+        </motion.div>
+      </section>
+
       <section id="weatherSpotifyWidgets" className="flex gap-4 mt-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.7, y: 10 }}
