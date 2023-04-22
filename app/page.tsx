@@ -176,64 +176,25 @@ export default function Home() {
         </motion.div>
       </section>
 
-      <section id="weatherSpotifyWidgets" className="flex gap-4 mt-12">
+      <section id="spotifyWidget" className="my-4 mt-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.7, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{
-            duration: 0.15,
-            type: "ease",
+            duration: 0.4,
+            type: "spring",
           }}
-          className=""
         >
-          <div className="w-36 h-36 rounded-2xl p-3 bg-gradient-to-b from-blue-400 to-blue-700 border border-blue-600 shadow-inner shadow-blue-400 text-white">
-            <div className="w-12 h-12 text-2xl bg-white bg-opacity-30 rounded-xl flex justify-center items-center">
-              🌞
-            </div>
-            <p className="font-medium mt-1">Mallorca</p>
-            <div className="flex items-end gap-2 mt-3">
-              <p className="text-2xl font-semibold">19º</p>
-              <p className="">Sunny</p>
-            </div>
-          </div>
-          <p className="text-xs text-center mt-1">Weather</p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.7, y: 10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{
-            duration: 0.15,
-            delay: 0.15,
-            type: "ease",
-          }}
-          className="w-full"
-        >
-          <Link
-            href="https://open.spotify.com/album/1gu4P2JcclHD1BvDXx2pqq?si=Yed2LL0xTGWK9MXvh9dwBQ"
-            target="_blank"
-            className="rounded-2xl p-2 text-white bg-gradient-to-t via-black from-black to-green-700 border border-green-700 shadow-inner shadow-green-700 flex gap-2 flex-col h-36"
-          >
-            <div className="flex justify-between">
-              <Image
-                src="/flipturn_shadowglow_album_cover.jpeg"
-                width="80"
-                height="80"
-                alt="Flipturn - Shadowglow"
-                className="rounded-xl shadow-sm"
-              ></Image>
-              <div className="p-2 text-green-300">
-                <FaSpotify />
-              </div>
-            </div>
-            <div>
-              <h2 className="text-xs tracking-wider font-bold text-green-300">
-                2022 FAV ALBUM
-              </h2>
-              <h3 className="font-normal">Flipturn - Shadowglow</h3>
-            </div>
-          </Link>
-          <p className="text-center text-xs mt-1">Spotify</p>
+          <iframe
+            src="https://open.spotify.com/embed/album/1gu4P2JcclHD1BvDXx2pqq?utm_source=generator"
+            width="100%"
+            height="152"
+            frameBorder="0"
+            allowFullScreen={false}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <p className="text-xs text-center mt-1">Fav 2023 album</p>
         </motion.div>
       </section>
 
