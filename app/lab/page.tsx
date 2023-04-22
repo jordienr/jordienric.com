@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
+import { Navigation } from "./Navigation";
 
 export default function Lab() {
   const phoneVariants = {
@@ -116,9 +117,9 @@ export default function Lab() {
 
   return (
     <div className="p-4">
-      <h1 className=" text-xl">Motion Lab</h1>
+      <h1 className=" text-xl">Jordi - Motion Lab</h1>
 
-      <div className="flex gap-4 mt-12 flex-wrap">
+      <div className="flex gap-4 mt-12 flex-wrap justify-center">
         <div className="experiment text-slate-600 hover:text-blue-500 w-20">
           <motion.div
             className="p-4"
@@ -142,7 +143,7 @@ export default function Lab() {
           <motion.button
             onHoverStart={() => setButtonHover(true)}
             onHoverEnd={() => setButtonHover(false)}
-            className="p-2 pr-2 pl-4 rounded-md bg-gradient-to-b from-slate-700 to-black text-white outline outline-slate-300 flex items-center gap-2 hover:outline-2 highlight"
+            className="p-2 pr-2 pl-4 rounded-md bg-gradient-to-b from-slate-700 to-black text-slate-200 hover:text-white outline outline-slate-300 flex items-center gap-2 hover:outline-4 highlight transition-all "
           >
             Send
             {buttonHover ? (
@@ -203,6 +204,10 @@ export default function Lab() {
             </motion.span>
             Delete
           </motion.button>
+        </div>
+
+        <div className="bg-gradient-to-br from-slate-700 to-slate-900 flex items-center p-12 rounded-xl">
+          <Navigation />
         </div>
       </div>
     </div>

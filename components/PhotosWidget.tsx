@@ -18,20 +18,39 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function PhotosWidget() {
   const [photoIndex, setPhotoIndex] = useState(0);
   const [showInfo, setShowInfo] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [path, setPath] = useState("/photos/" + photos[0]);
 
-  function nextPhoto() {
+  async function wait(ms: number) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  async function nextPhoto() {
     if (photoIndex < photos.length - 1) {
       setPhotoIndex(photoIndex + 1);
+      setPath("/photos/" + photos[photoIndex + 1]);
+      await wait(1000);
     } else {
       setPhotoIndex(0);
+      setPath("/photos/" + photos[0]);
     }
   }
-  function previousPhoto() {
+  async function previousPhoto() {
     if (photoIndex > 0) {
       setPhotoIndex(photoIndex - 1);
+      setPath("/photos/" + photos[photoIndex - 1]);
+      await wait(1000);
     } else {
       setPhotoIndex(photos.length - 1);
+      setPath("/photos/" + photos[photos.length - 1]);
     }
+  }
+
+  function onLoad() {
+    console.log("loaded");
+  }
+  function onLoadStart() {
+    console.log("loading");
   }
 
   function getMapUrl(imgExif: any): string {
@@ -50,23 +69,17 @@ export default function PhotosWidget() {
   }
 
   const variants = {
-    enter: (direction: number) => {
-      return {
-        x: direction > 0 ? 1000 : -1000,
-        opacity: 0,
-      };
+    transitioning: {
+      opacity: 0,
+      transition: {
+        duration: 0.5,
+      },
     },
-    center: {
-      zIndex: 1,
-      x: 0,
+    transitioned: {
       opacity: 1,
-    },
-    exit: (direction: number) => {
-      return {
-        zIndex: 0,
-        x: direction < 0 ? 1000 : -1000,
-        opacity: 0,
-      };
+      transition: {
+        duration: 0.5,
+      },
     },
   };
 
@@ -75,32 +88,37 @@ export default function PhotosWidget() {
       <div className="relative border rounded-2xl p-1 bg-white shadow-sm">
         <AnimatePresence>
           <motion.span
-            initial="enter"
-            animate="center"
+            animate={isTransitioning ? "transitioning" : "transitioned"}
             exit="exit"
             custom={1}
             variants={variants}
           >
             <Image
+              key={path}
               className="rounded-xl h-[600px] w-full object-cover"
-              src={exif[photoIndex].path}
+              src={path}
               placeholder="blur"
-              blurDataURL={exif[photoIndex].path}
+              loading="lazy"
+              blurDataURL={path}
               width={600}
+              onLoad={onLoad}
               height={800}
+              sizes="(max-width: 600px) 100vw, 600px"
               alt=""
             />
           </motion.span>
         </AnimatePresence>
 
-        <div className="absolute left-3 bottom-3 bg-white flex justify-start gap-1 p-1 rounded-lg">
-          <button onClick={previousPhoto} className="photo-btn">
-            <FaChevronLeft />
-          </button>
-          <button onClick={nextPhoto} className="photo-btn">
-            <FaChevronRight />
-          </button>
-        </div>
+        {!isTransitioning && (
+          <div className="absolute left-3 bottom-3 bg-white flex justify-start gap-1 p-1 rounded-lg">
+            <button onClick={previousPhoto} className="photo-btn">
+              <FaChevronLeft />
+            </button>
+            <button onClick={nextPhoto} className="photo-btn">
+              <FaChevronRight />
+            </button>
+          </div>
+        )}
 
         <div className="absolute right-3 bottom-3 bg-white flex justify-end p-1 rounded-lg gap-1 font-mono">
           {showInfo && (

@@ -149,8 +149,9 @@ export default function Home() {
                   Currently Frontend Lead at Clidrive
                 </h3>
                 <p className="text-xs text-slate-600">
-                  Building stuff with NextJS, TypeScript, TRPc, Tailwind, Zod,
-                  Turborepo
+                  Joined as the first frontend engineer and built the first
+                  iterations of our websites. Went from 0 to €1M in 3 months.
+                  Added +30 meme stickers to slack in the first week.
                 </p>
               </div>
             </div>
@@ -167,7 +168,8 @@ export default function Home() {
                   Previously, Frontend Lead at Ninety Nine
                 </h3>
                 <p className="text-xs text-slate-600">
-                  Built component libraries and a brokerage web platform
+                  Designed & developed TypeScript libraries, component
+                  libraries, web trading application and more.
                 </p>
               </div>
             </div>
