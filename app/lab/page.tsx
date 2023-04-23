@@ -16,6 +16,7 @@ import {
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { Navigation } from "./Navigation";
+import Carousel from "@/components/Carousel";
 
 export default function Lab() {
   const phoneVariants = {
@@ -116,7 +117,7 @@ export default function Lab() {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 pb-80">
       <h1 className=" text-xl">Jordi - Motion Lab</h1>
 
       <div className="flex gap-4 mt-12 flex-wrap justify-center">
@@ -208,6 +209,10 @@ export default function Lab() {
 
         <div className="bg-gradient-to-br from-slate-700 to-slate-900 flex items-center p-12 rounded-xl">
           <Navigation />
+        </div>
+
+        <div className="w-full rounded-xl bg-white p-8">
+          <Carousel />
         </div>
       </div>
     </div>
