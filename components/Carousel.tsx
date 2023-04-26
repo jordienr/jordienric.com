@@ -54,7 +54,7 @@ export default function Carousel() {
         </AnimatePresence>
         <div className="flex gap-4">
           <motion.div
-            animate={{ x: `-${index * 240}px` }}
+            animate={{ x: `-${index * 280}px` }}
             transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
             className="flex relative w-[480px] h-[480px]"
           >
@@ -64,7 +64,7 @@ export default function Carousel() {
                 src={img}
                 alt=""
                 className={`
-                    w-[240px]
+                    w-[280px]
                     object-cover 
                     rounded-md 
                     transition

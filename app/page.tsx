@@ -1,15 +1,15 @@
 "use client";
 
 import PhotosWidget from "@/components/PhotosWidget";
+import UIWidget from "@/components/UIWidget";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import {
   FaLinkedinIn,
   FaGithubAlt,
   FaTwitter,
-  FaSpotify,
+  FaInstagram,
 } from "react-icons/fa";
 import { GiAstronautHelmet } from "react-icons/gi";
 import { IoGlassesOutline } from "react-icons/io5";
@@ -37,6 +37,12 @@ export default function Home() {
       icon: <FaTwitter />,
       delay: 1.1,
     },
+    {
+      name: "Instagram",
+      url: "https://instagram.com/jordi.enr",
+      icon: <FaInstagram />,
+      delay: 1.2,
+    },
   ];
 
   return (
@@ -47,7 +53,7 @@ export default function Home() {
         <h4 className="text-slate-500">UI Engineer</h4>
       </header>
 
-      {/* <motion.section
+      <motion.section
         initial={{ opacity: 0, scale: 0.5, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{
@@ -55,7 +61,7 @@ export default function Home() {
           delay: 0.8,
           type: "spring",
         }}
-        className="mt-12 flex gap-4"
+        className="mt-12 flex justify-center divide-x gap-2"
       >
         {links.map((link, index) => (
           <motion.a
@@ -66,15 +72,15 @@ export default function Home() {
               delay: link.delay,
               type: "spring",
             }}
-            className="w-full flex items-center border shadow-sm text-2xl bg-slate-100 rounded-2xl justify-center"
+            className="p-2.5 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-xl rounded-xl border border-slate-200"
             key={link.name}
+            href={link.url}
+            target="_blank"
           >
-            <div className="w-full flex justify-center text-slate-700 rounded-xl bg-white py-2">
-              {link.icon}
-            </div>
+            {link.icon}
           </motion.a>
         ))}
-      </motion.section> */}
+      </motion.section>
 
       <section id="aboutWidget" className="my-4 mt-12">
         <motion.div
@@ -125,6 +131,22 @@ export default function Home() {
         </motion.div>
       </section>
 
+      {/* <section id="uiWidget" className="my-4 mt-12">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.7, y: 10 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{
+            duration: 0.4,
+            type: "spring",
+          }}
+        >
+          <div>
+            <UIWidget />
+          </div>
+          <p className="text-xs text-center mt-1">Latest UI Work</p>
+        </motion.div>
+      </section> */}
+
       <section id="workWidget" className="my-4 mt-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.7, y: 10 }}
@@ -155,7 +177,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 mt-4">
+            <div className="flex gap-4 mt-6">
               <Image
                 className="rounded-full h-10 w-10"
                 src="/ninetyninej.jpeg"
@@ -196,7 +218,7 @@ export default function Home() {
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
           ></iframe>
-          <p className="text-xs text-center mt-1">Fav 2023 album</p>
+          <p className="text-xs text-center mt-1">Fav 2022 album</p>
         </motion.div>
       </section>
 
