@@ -17,6 +17,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { Navigation } from "./Navigation";
 import Carousel from "@/components/Carousel";
+import AccountWidget from "./AccountWidget";
 
 export default function Lab() {
   const phoneVariants = {
@@ -213,6 +214,10 @@ export default function Lab() {
 
         <div className="w-full rounded-xl bg-white p-8">
           <Carousel />
+        </div>
+
+        <div className="w-full rounded-xl bg-white p-8">
+          <AccountWidget />
         </div>
       </div>
     </div>
