@@ -1,11 +1,16 @@
 "use client";
 import {
+  ArrowLeftCircle,
   ArrowRight,
+  ArrowUpLeft,
+  Backpack,
   Check,
   CheckCheck,
   CheckCircle,
   ChevronRight,
   Circle,
+  CornerUpLeft,
+  LucideArrowLeft,
   Menu,
   Phone,
   Trash,
@@ -19,6 +24,7 @@ import { Navigation } from "./Navigation";
 import Carousel from "@/components/Carousel";
 import AccountWidget from "./AccountWidget";
 import NightSky from "./NightSky";
+import Link from "next/link";
 
 export default function Lab() {
   const phoneVariants = {
@@ -119,10 +125,18 @@ export default function Lab() {
   };
 
   return (
-    <div className="p-4 pb-80">
-      <h1 className=" text-xl">Jordi - Motion Lab</h1>
+    <div className="p-4 pb-80 max-w-3xl mx-auto pt-8">
+      <Link href="/" title="Homepage">
+        <CornerUpLeft className="text-slate-400 hover:text-slate-700" />
+      </Link>
 
-      <div className="flex gap-4 mt-12 flex-wrap justify-center">
+      <h1 className=" text-xl">Jordi Enric</h1>
+      <h2 className="text-slate-700/80">
+        This is where I try stuff. All of it is built with React, Framer Motion
+        and Tailwind
+      </h2>
+
+      <div className="flex gap-4 mt-12 flex-wrap">
         <div className="experiment text-slate-600 hover:text-blue-500 w-20">
           <motion.div
             className="p-4"
@@ -209,11 +223,11 @@ export default function Lab() {
           </motion.button>
         </div>
 
-        <div className="bg-gradient-to-br from-slate-700 to-slate-900 flex items-center p-12 rounded-xl">
+        <div className="bg-gradient-to-br from-slate-700 to-slate-900 flex items-center p-12 rounded-xl flex-grow max-w-full overflow-auto">
           <Navigation />
         </div>
 
-        <div className="w-full rounded-xl bg-white p-8">
+        <div className="w-full rounded-xl bg-white p-4">
           <Carousel />
         </div>
 

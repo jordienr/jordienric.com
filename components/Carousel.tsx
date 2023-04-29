@@ -5,10 +5,13 @@ import photos from "../public/photos.json";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
+import Image from "next/image";
 
 export default function Carousel() {
   const images = photos.map((photo) => "/photos/" + photo);
   let [index, setIndex] = useState(0);
+
+  const SIZE = 320;
 
   const getPrevImage = () => {
     if (index > 0) {
@@ -43,10 +46,10 @@ export default function Carousel() {
 
   return (
     <>
-      <div className="flex justify-center overflow-hidden">
+      <div className="flex justify-center overflow-hidden max-w-full">
         <AnimatePresence initial={false}>
           <motion.button
-            className="bg-white z-10 w-full flex items-center justify-center"
+            className="bg-white z-10 flex items-center justify-center w-full px-2"
             onClick={() => prevImage()}
           >
             <ChevronLeftIcon />
@@ -54,22 +57,24 @@ export default function Carousel() {
         </AnimatePresence>
         <div className="flex gap-4">
           <motion.div
-            animate={{ x: `-${index * 280}px` }}
+            animate={{ x: `-${index * (SIZE / 2)}px` }}
             transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
-            className="flex relative w-[480px] h-[480px]"
+            className={`flex relative w-[${SIZE}px] h-[${SIZE}px]`}
           >
             {images.map((img, i) => (
-              <img
+              <Image
                 key={img}
                 src={img}
                 alt=""
+                width={SIZE / 2}
+                height={SIZE / 2}
                 className={`
-                    w-[280px]
+                    w-[${SIZE / 2}px]
                     object-cover 
                     rounded-md 
                     transition
                     relative
-                    left-[120px]
+                    left-[${SIZE / 2}px]
                     ${
                       i === index
                         ? "scale-100 shadow-md z-10"
@@ -82,7 +87,7 @@ export default function Carousel() {
 
         <AnimatePresence initial={false}>
           <motion.button
-            className="bg-white z-10 w-full flex items-center justify-center text-slate-400 hover:text-slate-800 transition"
+            className="bg-white z-10 flex items-center justify-center text-slate-400 hover:text-slate-800 transition w-full px-2"
             onClick={() => nextImage()}
           >
             <ChevronRightIcon />

@@ -17,7 +17,7 @@
 }
 
 .experiment {
-  @apply bg-gradient-to-b from-white to-slate-50 w-40 h-40 rounded-2xl shadow-sm border-slate-200 min-h-[80px] flex justify-center items-center;
+  @apply bg-gradient-to-b from-white to-slate-50 px-4 rounded-2xl shadow-sm border-slate-200 min-h-[120px] flex justify-center items-center flex-grow;
 }
 
 .highlight {
