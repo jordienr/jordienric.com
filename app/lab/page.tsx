@@ -18,6 +18,7 @@ import { useState } from "react";
 import { Navigation } from "./Navigation";
 import Carousel from "@/components/Carousel";
 import AccountWidget from "./AccountWidget";
+import NightSky from "./NightSky";
 
 export default function Lab() {
   const phoneVariants = {
@@ -218,6 +219,11 @@ export default function Lab() {
 
         <div className="w-full rounded-xl bg-white p-8">
           <AccountWidget />
+        </div>
+
+        <div className="w-full rounded-xl bg-white p-8">
+          <NightSky />
+          <p className="font-serif italic text-center mt-1">night sky</p>
         </div>
       </div>
     </div>
