@@ -3,7 +3,7 @@
 import PhotosWidget from "@/components/PhotosWidget";
 import UIWidget from "@/components/UIWidget";
 import { motion } from "framer-motion";
-import { Layers } from "lucide-react";
+import { FlaskRound, Layers } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -49,6 +49,12 @@ export default function Home() {
       url: "https://layers.to/jordi",
       icon: <Layers />,
       delay: 1.3,
+    },
+    {
+      name: "Lab",
+      url: "https://jordienric.com/lab",
+      icon: <FlaskRound />,
+      delay: 1.4,
     },
   ];
 
