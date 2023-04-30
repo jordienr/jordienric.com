@@ -3,6 +3,7 @@
 import PhotosWidget from "@/components/PhotosWidget";
 import UIWidget from "@/components/UIWidget";
 import { motion } from "framer-motion";
+import { Layers } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -43,6 +44,12 @@ export default function Home() {
       icon: <FaInstagram />,
       delay: 1.2,
     },
+    {
+      name: "Layers",
+      url: "https://layers.to/jordi",
+      icon: <Layers />,
+      delay: 1.3,
+    },
   ];
 
   return (
@@ -72,7 +79,7 @@ export default function Home() {
               delay: link.delay,
               type: "spring",
             }}
-            className="p-2.5 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-xl rounded-xl border border-slate-200"
+            className="h-10 w-10 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-xl rounded-xl flex items-center justify-center border border-slate-200"
             key={link.name}
             href={link.url}
             target="_blank"
