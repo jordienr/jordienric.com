@@ -1,30 +1,23 @@
 "use client";
 import {
-  ArrowLeftCircle,
   ArrowRight,
-  ArrowUpLeft,
-  Backpack,
-  Check,
-  CheckCheck,
   CheckCircle,
   ChevronRight,
   Circle,
   CornerUpLeft,
-  LucideArrowLeft,
   Menu,
   Phone,
-  Trash,
   Trash2,
-  Trash2Icon,
   X,
 } from "lucide-react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { Navigation } from "./Navigation";
 import Carousel from "@/components/Carousel";
 import AccountWidget from "./AccountWidget";
 import NightSky from "./NightSky";
 import Link from "next/link";
+import Animatext from "./Animatext";
 
 export default function Lab() {
   const phoneVariants = {
@@ -125,16 +118,26 @@ export default function Lab() {
   };
 
   return (
-    <div className="p-4 pb-80 max-w-3xl mx-auto pt-8">
-      <Link href="/" title="Homepage">
-        <CornerUpLeft className="text-slate-400 hover:text-slate-700" />
-      </Link>
-
-      <h1 className=" text-xl">Jordi Enric</h1>
-      <h2 className="text-slate-700/80">
+    <div className="p-4 pb-80 max-w-3xl mx-auto pt-12">
+      <motion.span
+        className="absolute top-0 left-0 mt-4 ml-4"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.4 }}
+      >
+        <Link href="/" title="Homepage">
+          <CornerUpLeft className="text-slate-400 hover:text-slate-700" />
+        </Link>
+      </motion.span>
+      <h1 className="text-xl font-serif italic">Jordi Enric</h1>
+      <p className="text-slate-700/80 mt-2">
         This is where I try stuff. All of it is built with React, Framer Motion
         and Tailwind
-      </h2>
+      </p>
+      <p className="text-slate-700/80 mt-2">
+        Some of these animations only run on mouse hover, so if you`re on mobile
+        you might want to try this on a desktop browser.
+      </p>
 
       <div className="flex gap-4 mt-12 flex-wrap">
         <div className="experiment text-slate-600 hover:text-blue-500 w-20">
@@ -238,6 +241,12 @@ export default function Lab() {
         <div className="w-full rounded-xl bg-white p-8">
           <NightSky />
           <p className="font-serif italic text-center mt-1">night sky</p>
+        </div>
+
+        <div className="w-full rounded-xl bg-white p-8">
+          <motion.h2 className="text-2xl font-semibold text-center">
+            <Animatext text="Lorem ipsum" />
+          </motion.h2>
         </div>
       </div>
     </div>
