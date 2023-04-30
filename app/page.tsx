@@ -249,7 +249,7 @@ export default function Home() {
         >
           Projects
         </motion.h2>
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-wrap">
           <motion.div
             initial={{ opacity: 0, scale: 0.7, y: 10 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
