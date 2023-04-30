@@ -11,8 +11,9 @@ import {
   FaGithubAlt,
   FaTwitter,
   FaInstagram,
+  FaGuitar,
 } from "react-icons/fa";
-import { GiAstronautHelmet } from "react-icons/gi";
+import { GiAstronautHelmet, GiGuitar } from "react-icons/gi";
 import { IoGlassesOutline } from "react-icons/io5";
 
 export default function Home() {
@@ -321,6 +322,23 @@ export default function Home() {
                 UI
               </div>
               <div className="text-center text-xs mt-1">UI Portfolio</div>
+            </Link>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.7, y: 10 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{
+              duration: 0.15,
+              delay: 0.8,
+              type: "ease",
+            }}
+            className=""
+          >
+            <Link target="_blank" href="https://frets.jordienric.com">
+              <div className="h-16 w-16 rounded-2xl flex justify-center items-center text-2xl bg-gradient-to-b from-emerald-400 to-emerald-600 text-emerald-50 font-semibold border border-emerald-500 drop-shadow-sm">
+                <FaGuitar />
+              </div>
+              <div className="text-center text-xs mt-1">Frets</div>
             </Link>
           </motion.div>
         </div>
