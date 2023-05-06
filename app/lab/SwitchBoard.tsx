@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
-import { motion, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function SwitchBoard() {
   const text = [
