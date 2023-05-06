@@ -12,13 +12,13 @@ export default function NightSky() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
-            opacity: [0, 1, 0],
+            opacity: [0, 1],
             scale: [0.8, 1.5, 0.8],
             rotate: [0, 360, 0],
             borderRadius: ["20%", "50%", "20%"],
           }}
           transition={{
-            duration: 4,
+            duration: 3,
             delay: Math.random() * 4,
             repeat: Infinity,
           }}

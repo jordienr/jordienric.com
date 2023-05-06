@@ -19,6 +19,7 @@ import NightSky from "./NightSky";
 import Link from "next/link";
 import Animatext from "./Animatext";
 import LogosWidget from "./LogosWidget";
+import Spotlight from "./Spotlight";
 
 export default function Lab() {
   const phoneVariants = {
@@ -240,12 +241,18 @@ export default function Lab() {
         </div>
 
         <div className="w-full rounded-xl bg-white p-8">
-          <NightSky />
-          <p className="font-serif italic text-center mt-1">night sky</p>
+          <LogosWidget />
         </div>
 
         <div className="w-full rounded-xl bg-white p-8">
-          <LogosWidget />
+          <Spotlight>
+            <div className="text-center text-white text-3xl cursor-context-menu flex flex-col justify-center items-center">
+              Spotlight Hover
+              <p className="text-xs mt-1 opacity-80 bg-slate-50/20 inline-block px-3 py-1 rounded-md border border-white/40">
+                Doesn`t work on mobile
+              </p>
+            </div>
+          </Spotlight>
         </div>
       </div>
     </div>

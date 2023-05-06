@@ -25,37 +25,37 @@ export default function Home() {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/jordienric/",
       icon: <FaLinkedinIn />,
-      delay: 0.9,
+      target: "_blank",
     },
     {
       name: "GitHub",
       url: "https://github.com/jordienr",
       icon: <FaGithubAlt />,
-      delay: 1,
+      target: "_blank",
     },
     {
       name: "Twitter",
       url: "https://twitter.com/jordienr",
       icon: <FaTwitter />,
-      delay: 1.1,
+      target: "_blank",
     },
     {
       name: "Instagram",
       url: "https://instagram.com/jordi.enr",
       icon: <FaInstagram />,
-      delay: 1.2,
+      target: "_blank",
     },
     {
       name: "Layers",
       url: "https://layers.to/jordi",
       icon: <Layers />,
-      delay: 1.3,
+      target: "_blank",
     },
     {
       name: "Lab",
-      url: "https://jordienric.com/lab",
+      url: "/lab",
       icon: <FlaskRound />,
-      delay: 1.4,
+      target: "_self",
     },
   ];
 
@@ -67,34 +67,25 @@ export default function Home() {
         <h4 className="text-slate-500">UI Engineer</h4>
       </header>
 
-      <motion.section
-        initial={{ opacity: 0, scale: 0.5, y: 20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{
-          duration: 0.2,
-          delay: 0.8,
-          type: "spring",
-        }}
-        className="mt-12 flex justify-center divide-x gap-2"
-      >
+      <section className="mt-12 flex justify-center divide-x gap-2">
         {links.map((link, index) => (
           <motion.a
             initial={{ opacity: 0, scale: 0.5, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{
               duration: 0.5,
-              delay: link.delay,
+              delay: index * 0.1,
               type: "spring",
             }}
             className="h-10 w-10 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-xl rounded-xl flex items-center justify-center border border-slate-200"
             key={link.name}
             href={link.url}
-            target="_blank"
+            target={link.target}
           >
             {link.icon}
           </motion.a>
         ))}
-      </motion.section>
+      </section>
 
       <section id="aboutWidget" className="my-4 mt-12">
         <motion.div
