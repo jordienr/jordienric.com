@@ -18,6 +18,7 @@ import AccountWidget from "./AccountWidget";
 import NightSky from "./NightSky";
 import Link from "next/link";
 import Animatext from "./Animatext";
+import LogosWidget from "./LogosWidget";
 
 export default function Lab() {
   const phoneVariants = {
@@ -244,9 +245,7 @@ export default function Lab() {
         </div>
 
         <div className="w-full rounded-xl bg-white p-8">
-          <motion.h2 className="text-2xl font-semibold text-center">
-            <Animatext text="Lorem ipsum" />
-          </motion.h2>
+          <LogosWidget />
         </div>
       </div>
     </div>
