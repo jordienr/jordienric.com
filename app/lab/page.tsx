@@ -20,6 +20,7 @@ import Link from "next/link";
 import Animatext from "./Animatext";
 import LogosWidget from "./LogosWidget";
 import Spotlight from "./Spotlight";
+import SwitchBoard from "./SwitchBoard";
 
 export default function Lab() {
   const phoneVariants = {
@@ -253,6 +254,10 @@ export default function Lab() {
               </p>
             </div>
           </Spotlight>
+        </div>
+
+        <div className="w-full rounded-xl bg-white p-8">
+          <SwitchBoard />
         </div>
       </div>
     </div>
