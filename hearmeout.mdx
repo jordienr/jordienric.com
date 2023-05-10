@@ -1,0 +1,40 @@
+<server lang="ts">
+    import { db } from '@/database'
+
+    async function main() {
+        const items = await db.items.getAll()
+        return { items }
+    }
+
+</server>
+
+<ui lang="ts">
+    function Item(item) {
+        return (
+            <div>
+                <h2>{item.name}</h2>
+                <p>{item.description}</p>
+            </div>
+        )
+    }
+
+    function Page({ items }) {
+        return (
+            <div>
+                <h1>Items</h1>
+                <ul>
+                    {items.map(item => (
+                        <li>{item.name}</li>
+                    ))}
+                </ul>
+            </div>
+        )
+    }
+
+</ui>
+
+<styles lang="scss">
+    h1 {
+        color: red;
+    }
+</styles>

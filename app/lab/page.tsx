@@ -15,12 +15,12 @@ import { useState } from "react";
 import { Navigation } from "./Navigation";
 import Carousel from "@/components/Carousel";
 import AccountWidget from "./AccountWidget";
-import NightSky from "./NightSky";
 import Link from "next/link";
-import Animatext from "./Animatext";
 import LogosWidget from "./LogosWidget";
 import Spotlight from "./Spotlight";
 import SwitchBoard from "./SwitchBoard";
+import AttioCarousel from "./AttioCarousel";
+import RotatingGradient from "./RotatingGradient";
 
 export default function Lab() {
   const phoneVariants = {
@@ -258,6 +258,14 @@ export default function Lab() {
 
         <div className="w-full rounded-xl bg-white p-8">
           <SwitchBoard />
+        </div>
+
+        <div className="hidden w-full rounded-xl bg-white p-8">
+          <AttioCarousel />
+        </div>
+
+        <div className="hidden w-full rounded-xl bg-white p-8">
+          <RotatingGradient />
         </div>
       </div>
     </div>
