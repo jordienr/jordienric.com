@@ -334,6 +334,23 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+      <section className="mt-12">
+        <div>
+          <h2 className="mt-8 mb-4 font-semibold text-xl">New side project</h2>
+          <Link
+            className="mt-4 p-1 border-[0.3px] shadow-sm block rounded-2xl bg-white hover:bg-orange-50 transition-all"
+            href="https://zendo.blog"
+          >
+            <Image
+              src="/zendoblogbg.jpg"
+              width="480"
+              height="270"
+              className="rounded-xl shadow-sm border-[0.5px] border-slate-300"
+              alt="Zendoblog"
+            />
+          </Link>
+        </div>
+      </section>
 
       <section id="photosWidget" className="mt-12">
         <motion.div
