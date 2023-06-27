@@ -8,6 +8,7 @@ specifiers:
   '@types/node': 18.11.18
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
+  '@znd/client': ^0.2.1
   autoprefixer: ^10.4.13
   eslint: 8.33.0
   eslint-config-next: 13.1.6
@@ -30,6 +31,7 @@ dependencies:
   '@types/node': 18.11.18
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
+  '@znd/client': 0.2.1
   autoprefixer: 10.4.13_postcss@8.4.21
   eslint: 8.33.0
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
@@ -436,6 +438,10 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.50.0
       eslint-visitor-keys: 3.3.0
+    dev: false
+
+  /@znd/client/0.2.1:
+    resolution: {integrity: sha512-oehz9RIg9EWqtdCPYTtk8e0DLEafW0ncHLfB8lvNKQM00V0M05ueGDFU36a2eO1ob0UyW14qD42wGtOSBLbtvw==}
     dev: false
 
   /acorn-jsx/5.3.2_acorn@8.8.2:
