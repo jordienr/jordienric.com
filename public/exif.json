@@ -7,6 +7,71 @@
       "Make": "Apple",
       "Model": "iPhone 14 Pro",
       "Software": "Adobe Imagecore (Linux)",
+      "ModifyDate": 1666090029,
+      "GPSLatitudeRef": "N",
+      "GPSLatitude": 47.26220555555555,
+      "GPSLongitudeRef": "E",
+      "GPSLongitude": 11.394972222222222,
+      "GPSAltitudeRef": 0,
+      "GPSAltitude": 586.4229195088677,
+      "GPSSpeedRef": "K",
+      "GPSSpeed": 0,
+      "GPSImgDirectionRef": "T",
+      "GPSImgDirection": 342.36007702182286,
+      "GPSDestBearingRef": "T",
+      "GPSDestBearing": 342.36007702182286,
+      "GPSDateStamp": "2022:10:14",
+      "GPSHPositioningError": 9.59894607018724,
+      "ExposureTime": 0.00028571428571428574,
+      "FNumber": 1.8,
+      "ExposureProgram": 2,
+      "ISO": 64,
+      "ExifVersion": {
+        "type": "Buffer",
+        "data": [48, 50, 51, 50]
+      },
+      "DateTimeOriginal": 1665756529,
+      "CreateDate": 1665756529,
+      "undefined": "+00:00",
+      "ShutterSpeedValue": 11.773139,
+      "ApertureValue": 1.695994,
+      "BrightnessValue": 9.845678691928368,
+      "ExposureCompensation": 0,
+      "MeteringMode": 5,
+      "Flash": 16,
+      "FocalLength": 6.86,
+      "SubjectArea": [2017, 1508, 1161, 665],
+      "SubSecTimeOriginal": "836",
+      "SubSecTimeDigitized": "836",
+      "ColorSpace": 65535,
+      "SensingMethod": 2,
+      "SceneType": {
+        "type": "Buffer",
+        "data": [1]
+      },
+      "ExposureMode": 0,
+      "WhiteBalance": 0,
+      "FocalLengthIn35mmFormat": 48,
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
+      "LensMake": "Apple",
+      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
+    },
+    "imageSize": {
+      "height": 3277,
+      "width": 2458
+    },
+    "app1Offset": 6,
+    "path": "/photos/17-IMG_1569.jpg",
+    "name": "17-IMG_1569.jpg"
+  },
+  {
+    "startMarker": {
+      "offset": 0
+    },
+    "tags": {
+      "Make": "Apple",
+      "Model": "iPhone 14 Pro",
+      "Software": "Adobe Imagecore (Linux)",
       "ModifyDate": 1666090017,
       "GPSLatitudeRef": "N",
       "GPSLatitude": 47.75996111111111,
@@ -28,12 +93,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665919514,
       "CreateDate": 1665919514,
@@ -45,31 +105,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        1995,
-        1505,
-        1098,
-        659
-      ],
+      "SubjectArea": [1995, 1505, 1098, 659],
       "SubSecTimeOriginal": "559",
       "SubSecTimeDigitized": "559",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -110,12 +158,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665846612,
       "CreateDate": 1665846612,
@@ -127,31 +170,19 @@
       "MeteringMode": 3,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2266,
-        1308,
-        747,
-        743
-      ],
+      "SubjectArea": [2266, 1308, 747, 743],
       "SubSecTimeOriginal": "839",
       "SubSecTimeDigitized": "839",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -192,12 +223,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665743890,
       "CreateDate": 1665743890,
@@ -209,31 +235,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "431",
       "SubSecTimeDigitized": "431",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -274,12 +288,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665579977,
       "CreateDate": 1665579977,
@@ -291,31 +300,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "998",
       "SubSecTimeDigitized": "998",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -356,12 +353,7 @@
       "ISO": 80,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665490336,
       "CreateDate": 1665490336,
@@ -373,31 +365,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2011,
-        1508,
-        2323,
-        1330
-      ],
+      "SubjectArea": [2011, 1508, 2323, 1330],
       "SubSecTimeOriginal": "642",
       "SubSecTimeDigitized": "642",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 24,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -438,12 +418,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1663494930,
       "CreateDate": 1663494930,
@@ -455,31 +430,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "396",
       "SubSecTimeDigitized": "396",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -520,12 +483,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665854407,
       "CreateDate": 1665854407,
@@ -537,31 +495,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "439",
       "SubSecTimeDigitized": "439",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -602,12 +548,7 @@
       "ISO": 50,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665854257,
       "CreateDate": 1665854257,
@@ -619,31 +560,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 2.22,
-      "SubjectArea": [
-        2015,
-        1511,
-        2323,
-        1330
-      ],
+      "SubjectArea": [2015, 1511, 2323, 1330],
       "SubSecTimeOriginal": "826",
       "SubSecTimeDigitized": "826",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 14,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 2.22mm f/2.2"
     },
@@ -684,12 +613,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665853678,
       "CreateDate": 1665853678,
@@ -701,31 +625,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "690",
       "SubSecTimeDigitized": "690",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -736,88 +648,6 @@
     "app1Offset": 6,
     "path": "/photos/13-IMG_1700.jpg",
     "name": "13-IMG_1700.jpg"
-  },
-  {
-    "startMarker": {
-      "offset": 0
-    },
-    "tags": {
-      "Make": "Apple",
-      "Model": "iPhone 14 Pro",
-      "Software": "Adobe Imagecore (Linux)",
-      "ModifyDate": 1666090029,
-      "GPSLatitudeRef": "N",
-      "GPSLatitude": 47.26220555555555,
-      "GPSLongitudeRef": "E",
-      "GPSLongitude": 11.394972222222222,
-      "GPSAltitudeRef": 0,
-      "GPSAltitude": 586.4229195088677,
-      "GPSSpeedRef": "K",
-      "GPSSpeed": 0,
-      "GPSImgDirectionRef": "T",
-      "GPSImgDirection": 342.36007702182286,
-      "GPSDestBearingRef": "T",
-      "GPSDestBearing": 342.36007702182286,
-      "GPSDateStamp": "2022:10:14",
-      "GPSHPositioningError": 9.59894607018724,
-      "ExposureTime": 0.00028571428571428574,
-      "FNumber": 1.8,
-      "ExposureProgram": 2,
-      "ISO": 64,
-      "ExifVersion": {
-        "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
-      },
-      "DateTimeOriginal": 1665756529,
-      "CreateDate": 1665756529,
-      "undefined": "+00:00",
-      "ShutterSpeedValue": 11.773139,
-      "ApertureValue": 1.695994,
-      "BrightnessValue": 9.845678691928368,
-      "ExposureCompensation": 0,
-      "MeteringMode": 5,
-      "Flash": 16,
-      "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
-      "SubSecTimeOriginal": "836",
-      "SubSecTimeDigitized": "836",
-      "ColorSpace": 65535,
-      "SensingMethod": 2,
-      "SceneType": {
-        "type": "Buffer",
-        "data": [
-          1
-        ]
-      },
-      "ExposureMode": 0,
-      "WhiteBalance": 0,
-      "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
-      "LensMake": "Apple",
-      "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
-    },
-    "imageSize": {
-      "height": 3277,
-      "width": 2458
-    },
-    "app1Offset": 6,
-    "path": "/photos/17-IMG_1569.jpg",
-    "name": "17-IMG_1569.jpg"
   },
   {
     "startMarker": {
@@ -848,12 +678,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665919470,
       "CreateDate": 1665919470,
@@ -865,31 +690,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "901",
       "SubSecTimeDigitized": "901",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -930,12 +743,7 @@
       "ISO": 1000,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665857932,
       "CreateDate": 1665857932,
@@ -947,31 +755,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2009,
-        1505,
-        2208,
-        1324
-      ],
+      "SubjectArea": [2009, 1505, 2208, 1324],
       "SubSecTimeOriginal": "436",
       "SubSecTimeDigitized": "436",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 24,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -1012,12 +808,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665679109,
       "CreateDate": 1665679109,
@@ -1029,31 +820,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "494",
       "SubSecTimeDigitized": "494",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1080,12 +859,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665583067,
       "CreateDate": 1665583067,
@@ -1097,31 +871,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "575",
       "SubSecTimeDigitized": "575",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1162,12 +924,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665853578,
       "CreateDate": 1665853578,
@@ -1179,31 +936,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "525",
       "SubSecTimeDigitized": "525",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1244,12 +989,7 @@
       "ISO": 50,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665853603,
       "CreateDate": 1665853603,
@@ -1261,31 +1001,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 2.22,
-      "SubjectArea": [
-        2015,
-        1511,
-        2323,
-        1330
-      ],
+      "SubjectArea": [2015, 1511, 2323, 1330],
       "SubSecTimeOriginal": "299",
       "SubSecTimeDigitized": "299",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 14,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 2.22mm f/2.2"
     },
@@ -1325,12 +1053,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665580921,
       "CreateDate": 1665580921,
@@ -1342,31 +1065,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "916",
       "SubSecTimeDigitized": "916",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -1405,12 +1116,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665419389,
       "CreateDate": 1665419389,
@@ -1422,31 +1128,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2005,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2005, 1518, 2323, 1333],
       "SubSecTimeOriginal": "618",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
       "SceneCaptureType": 0,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1487,12 +1181,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1664221145,
       "CreateDate": 1664221145,
@@ -1504,31 +1193,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "165",
       "SubSecTimeDigitized": "165",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -1569,12 +1246,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665917571,
       "CreateDate": 1665917571,
@@ -1586,32 +1258,20 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2002,
-        1484,
-        2305,
-        1308
-      ],
+      "SubjectArea": [2002, 1484, 2305, 1308],
       "SubSecTimeOriginal": "885",
       "SubSecTimeDigitized": "885",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "DigitalZoomRatio": 2.166189111747851,
       "FocalLengthIn35mmFormat": 167,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1652,12 +1312,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665917548,
       "CreateDate": 1665917548,
@@ -1669,31 +1324,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "800",
       "SubSecTimeDigitized": "800",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1734,12 +1377,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665233169,
       "CreateDate": 1665233169,
@@ -1751,31 +1389,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "445",
       "SubSecTimeDigitized": "445",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -1816,12 +1442,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665854597,
       "CreateDate": 1665854597,
@@ -1833,31 +1454,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "382",
       "SubSecTimeDigitized": "382",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1898,12 +1507,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665679054,
       "CreateDate": 1665679054,
@@ -1915,31 +1519,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "177",
       "SubSecTimeDigitized": "177",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -1980,12 +1572,7 @@
       "ISO": 80,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665494267,
       "CreateDate": 1665494267,
@@ -1997,31 +1584,19 @@
       "MeteringMode": 3,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        1620,
-        2055,
-        747,
-        749
-      ],
+      "SubjectArea": [1620, 2055, 747, 749],
       "SubSecTimeOriginal": "412",
       "SubSecTimeDigitized": "412",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 24,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2062,12 +1637,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665416540,
       "CreateDate": 1665416540,
@@ -2079,31 +1649,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "242",
       "SubSecTimeDigitized": "242",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2144,12 +1702,7 @@
       "ISO": 40,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665234462,
       "CreateDate": 1665234462,
@@ -2161,31 +1714,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 2.22,
-      "SubjectArea": [
-        1568,
-        1425,
-        160,
-        160
-      ],
+      "SubjectArea": [1568, 1425, 160, 160],
       "SubSecTimeOriginal": "022",
       "SubSecTimeDigitized": "022",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 14,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 2.22mm f/2.2"
     },
@@ -2226,12 +1767,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665853971,
       "CreateDate": 1665853971,
@@ -2243,31 +1779,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "009",
       "SubSecTimeDigitized": "009",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2308,12 +1832,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665580985,
       "CreateDate": 1665580985,
@@ -2325,31 +1844,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "145",
       "SubSecTimeDigitized": "145",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2390,12 +1897,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665917546,
       "CreateDate": 1665917546,
@@ -2407,32 +1909,20 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2008,
-        1510,
-        1159,
-        664
-      ],
+      "SubjectArea": [2008, 1510, 1159, 664],
       "SubSecTimeOriginal": "151",
       "SubSecTimeDigitized": "151",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "DigitalZoomRatio": 1.6153846153846154,
       "FocalLengthIn35mmFormat": 78,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2473,12 +1963,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1663503601,
       "CreateDate": 1663503601,
@@ -2490,31 +1975,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "797",
       "SubSecTimeDigitized": "797",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2555,12 +2028,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665918670,
       "CreateDate": 1665918670,
@@ -2572,31 +2040,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "465",
       "SubSecTimeDigitized": "465",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -2637,12 +2093,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665740626,
       "CreateDate": 1665740626,
@@ -2654,31 +2105,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "755",
       "SubSecTimeDigitized": "755",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2719,12 +2158,7 @@
       "ISO": 32,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1663357379,
       "CreateDate": 1663357379,
@@ -2736,31 +2170,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "803",
       "SubSecTimeDigitized": "803",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -2801,12 +2223,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665309351,
       "CreateDate": 1665309351,
@@ -2818,31 +2235,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "848",
       "SubSecTimeDigitized": "848",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2883,12 +2288,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665319657,
       "CreateDate": 1665319657,
@@ -2900,31 +2300,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "689",
       "SubSecTimeDigitized": "689",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -2965,12 +2353,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665854690,
       "CreateDate": 1665854690,
@@ -2982,31 +2365,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "583",
       "SubSecTimeDigitized": "583",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },
@@ -3047,12 +2418,7 @@
       "ISO": 80,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665234173,
       "CreateDate": 1665234173,
@@ -3064,31 +2430,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 9,
-      "SubjectArea": [
-        2011,
-        1518,
-        2323,
-        1333
-      ],
+      "SubjectArea": [2011, 1518, 2323, 1333],
       "SubSecTimeOriginal": "604",
       "SubSecTimeDigitized": "604",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 77,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 9mm f/2.8"
     },
@@ -3129,12 +2483,7 @@
       "ISO": 64,
       "ExifVersion": {
         "type": "Buffer",
-        "data": [
-          48,
-          50,
-          51,
-          50
-        ]
+        "data": [48, 50, 51, 50]
       },
       "DateTimeOriginal": 1665318005,
       "CreateDate": 1665318005,
@@ -3146,31 +2495,19 @@
       "MeteringMode": 5,
       "Flash": 16,
       "FocalLength": 6.86,
-      "SubjectArea": [
-        2017,
-        1508,
-        1161,
-        665
-      ],
+      "SubjectArea": [2017, 1508, 1161, 665],
       "SubSecTimeOriginal": "278",
       "SubSecTimeDigitized": "278",
       "ColorSpace": 65535,
       "SensingMethod": 2,
       "SceneType": {
         "type": "Buffer",
-        "data": [
-          1
-        ]
+        "data": [1]
       },
       "ExposureMode": 0,
       "WhiteBalance": 0,
       "FocalLengthIn35mmFormat": 48,
-      "LensInfo": [
-        2.220000028611935,
-        9,
-        1.7799999713880652,
-        2.8
-      ],
+      "LensInfo": [2.220000028611935, 9, 1.7799999713880652, 2.8],
       "LensMake": "Apple",
       "LensModel": "iPhone 14 Pro back triple camera 6.86mm f/1.78"
     },

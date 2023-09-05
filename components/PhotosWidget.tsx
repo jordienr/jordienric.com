@@ -85,7 +85,7 @@ export default function PhotosWidget() {
 
   return (
     <>
-      <div className="relative border rounded-2xl p-1 bg-white shadow-sm">
+      <div className="bg-white shadow-sm">
         <AnimatePresence>
           <motion.span
             animate={isTransitioning ? "transitioning" : "transitioned"}
@@ -95,22 +95,22 @@ export default function PhotosWidget() {
           >
             <Image
               key={path}
-              className="rounded-xl h-[600px] w-full object-cover"
+              className="rounded-sm h-[800px] w-full object-cover"
               src={path}
               placeholder="blur"
               loading="lazy"
               blurDataURL={path}
-              width={600}
+              width={800}
               onLoad={onLoad}
-              height={800}
+              height={1200}
               sizes="(max-width: 600px) 100vw, 600px"
               alt=""
             />
           </motion.span>
         </AnimatePresence>
 
-        {!isTransitioning && (
-          <div className="absolute left-3 bottom-3 bg-white flex justify-start gap-1 p-1 rounded-lg">
+        <div className="flex justify-between items-center">
+          <div className="flex justify-start gap-1 p-1 rounded-lg">
             <button onClick={previousPhoto} className="photo-btn">
               <FaChevronLeft />
             </button>
@@ -118,56 +118,58 @@ export default function PhotosWidget() {
               <FaChevronRight />
             </button>
           </div>
-        )}
 
-        <div className="absolute right-3 bottom-3 bg-white flex justify-end p-1 rounded-lg gap-1 font-mono">
-          {showInfo && (
-            <ul className="text-xs absolute right-0 bottom-11 bg-white p-1 px-2 rounded-lg gap-2 flex flex-col text-slate-600 w-52">
-              <li>{exif[photoIndex].name}</li>
-              <li className="font-mono">
-                {exif[photoIndex].imageSize.height +
-                  " x " +
-                  exif[photoIndex].imageSize.width}
-              </li>
-              <li className="font-mono">{exif[photoIndex].tags.LensModel}</li>
-            </ul>
-          )}
-          <button onClick={() => setShowInfo(!showInfo)} className="photo-btn">
-            <FaInfo />
-          </button>
-          {getMapUrl(exif[photoIndex]) && (
+          <div className="bg-white/80 flex justify-end p-1 rounded-lg gap-1 font-mono">
+            {showInfo && (
+              <ul className="text-xs absolute right-0 bottom-11 bg-white p-1 px-2 rounded-lg gap-2 flex flex-col text-slate-600 w-52">
+                <li>{exif[photoIndex].name}</li>
+                <li className="font-mono">
+                  {exif[photoIndex].imageSize.height +
+                    " x " +
+                    exif[photoIndex].imageSize.width}
+                </li>
+                <li className="font-mono">{exif[photoIndex].tags.LensModel}</li>
+              </ul>
+            )}
+            <button
+              onClick={() => setShowInfo(!showInfo)}
+              className="photo-btn"
+            >
+              <FaInfo />
+            </button>
+            {getMapUrl(exif[photoIndex]) && (
+              <Link
+                target="_blank"
+                rel="noreferrer"
+                className="photo-btn"
+                href={getMapUrl(exif[photoIndex])}
+                title="Open in Google Maps"
+              >
+                <FaMapMarkerAlt />
+              </Link>
+            )}
             <Link
+              className="photo-btn"
               target="_blank"
               rel="noreferrer"
-              className="photo-btn"
-              href={getMapUrl(exif[photoIndex])}
-              title="Open in Google Maps"
+              href={exif[photoIndex].path}
+              title="Open in new tab"
             >
-              <FaMapMarkerAlt />
+              <FaImage />
             </Link>
-          )}
-          <Link
-            className="photo-btn"
-            target="_blank"
-            rel="noreferrer"
-            href={exif[photoIndex].path}
-            title="Open in new tab"
-          >
-            <FaImage />
-          </Link>
-          <Link
-            className="photo-btn"
-            target="_blank"
-            rel="noreferrer"
-            download={exif[photoIndex].name}
-            href={exif[photoIndex].path}
-            title="Download"
-          >
-            <FaDownload />
-          </Link>
+            <Link
+              className="photo-btn"
+              target="_blank"
+              rel="noreferrer"
+              download={exif[photoIndex].name}
+              href={exif[photoIndex].path}
+              title="Download"
+            >
+              <FaDownload />
+            </Link>
+          </div>
         </div>
       </div>
-      <h2 className="text-xs mt-1 text-center">Photos</h2>
     </>
   );
 }
