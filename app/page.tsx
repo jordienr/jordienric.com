@@ -283,43 +283,6 @@ export default function Home() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{
               duration: 0.15,
-              delay: 0.6,
-              type: "ease",
-            }}
-            className=""
-          >
-            <Link target="_blank" href="https://www.toolhunt.dev/">
-              <div className="w-16 h-16 rounded-2xl flex justify-center items-center text-2xl font-semibold bg-gradient-to-tr from-indigo-500 to-black text-slate-100 border border-indigo-700 shadow-inner shadow-indigo-500">
-                T
-              </div>
-              <div className="text-center text-xs mt-1">Toolhunt</div>
-            </Link>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.7, y: 10 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{
-              duration: 0.15,
-              delay: 0.7,
-              type: "ease",
-            }}
-            className=""
-          >
-            <Link
-              target="_blank"
-              href="https://jordienr.notion.site/Jordi-Enric-UI-Portfolio-ac3517bcd82544289caf07c4603bddfd"
-            >
-              <div className="h-16 w-16 rounded-2xl flex justify-center items-center text-2xl bg-gradient-to-b from-orange-100 to-orange-300 text-orange-600 font-semibold border border-orange-300 drop-shadow-sm">
-                UI
-              </div>
-              <div className="text-center text-xs mt-1">UI Portfolio</div>
-            </Link>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.7, y: 10 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{
-              duration: 0.15,
               delay: 0.8,
               type: "ease",
             }}
