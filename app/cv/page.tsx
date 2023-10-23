@@ -16,18 +16,20 @@ export default function Cv() {
         "React",
         "Typescript",
         "NextJS",
+        "React Query, Zustand",
         "TailwindCSS",
-        "RadixUI",
-        "ShadcnUI",
-        "SEO",
+        "RadixUI & ShadcnUI",
+        "SEO, SEM, GTM",
         "Accessibility",
         "Jest",
         "React Testing Library",
-        "Cypress",
-        "Playwright",
+        "Cypress & Playwright",
         "Git",
         "Storybook",
         "Figma",
+        "Turborepo",
+        "Leadership",
+        "Technical writing",
       ],
     },
     experience: {
@@ -47,15 +49,6 @@ export default function Cv() {
             "Built a dashboard for developers to manage API keys, monitor usage, manage billing, etc.",
             "Set up all observability tooling, product analytics and error tracking for the frontend",
           ],
-          skills: [
-            "Leadership",
-            "Technical writing",
-            "React",
-            "NextJS",
-            "Typescript",
-            "Turborepo",
-            "TailwindCSS",
-          ],
         },
         {
           role: "Senior Frontend Developer",
@@ -68,14 +61,6 @@ export default function Cv() {
             "Built a component library in VueJS and Web Components",
             "Designed and developed an API Client in TypeScript for banks to use our APIs in their trading applications",
             "Led the development and implementation of the new design system",
-          ],
-          skills: [
-            "Leadership",
-            "Technical writing",
-            "React",
-            "VueJS",
-            "Typescript",
-            "TailwindCSS",
           ],
         },
         {
@@ -90,13 +75,6 @@ export default function Cv() {
             "Led the development and implementation of the first consumer-facing application",
             "Built the documentation and storybook websites for our APIs",
           ],
-          skills: [
-            "Leadership",
-            "Technical writing",
-            "React",
-            "Typescript",
-            "React Testing Library",
-          ],
         },
         {
           role: "Frontend Developer",
@@ -109,7 +87,6 @@ export default function Cv() {
             "Built a React Native app for a local startup",
             "Built websites as a freelance developer for local businesses",
           ],
-          skills: ["React", "Typescript"],
         },
       ],
       education: {
@@ -129,7 +106,7 @@ export default function Cv() {
           Print
         </button>
       </div>
-      <div className="px-4 text-sm text-slate-700 max-w-4xl print:max-w-none print:py-1 print:shadow-none mx-auto bg-white py-2 shadow-sm">
+      <div className="px-4 text-sm text-slate-700 max-w-4xl print:max-w-none print:py-1 print:shadow-none mx-auto bg-white py-2 shadow-sm space-y-4">
         <section className="my-4 flex justify-between">
           <div>
             <h1 className="font-medium">{cv.about.name}</h1>
@@ -142,6 +119,16 @@ export default function Cv() {
               <li>{cv.about.linkedin}</li>
             </ul>
           </div>
+        </section>
+        <section>
+          <h2 className="font-medium border-b">Skills</h2>
+          <ul className="grid grid-cols-5 mt-2 text-xs">
+            {cv.techSkills.items.map((skill) => (
+              <li className="my-0.5" key={skill}>
+                {skill}
+              </li>
+            ))}
+          </ul>
         </section>
         <section>
           <h2 className="font-medium border-b">{cv.experience.title}</h2>
@@ -159,11 +146,6 @@ export default function Cv() {
                   {item.achievements.map((achievement) => (
                     <li key={achievement}>· {achievement}</li>
                   ))}
-                </ul>
-                <ul className="mt-2">
-                  <li className="font-medium">
-                    Skills: {item.skills.join(", ")}
-                  </li>
                 </ul>
               </li>
             ))}

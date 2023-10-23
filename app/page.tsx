@@ -1,7 +1,6 @@
 "use client";
 
 import PhotosWidget from "@/components/PhotosWidget";
-import UIWidget from "@/components/UIWidget";
 import { motion } from "framer-motion";
 import { FlaskRound, Layers } from "lucide-react";
 import Image from "next/image";
@@ -13,12 +12,12 @@ import {
   FaInstagram,
   FaGuitar,
 } from "react-icons/fa";
-import { GiAstronautHelmet, GiGuitar } from "react-icons/gi";
+import { GiAstronautHelmet } from "react-icons/gi";
 import { IoGlassesOutline } from "react-icons/io5";
 
 export default function Home() {
   const about =
-    "Self-taught software engineer focused on building beautiful, snappy user interfaces.";
+    "Senior Software Engineer focused on building beautiful, snappy user interfaces and performant, scalable web applications.";
 
   const links = [
     {
@@ -122,7 +121,7 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{
                   duration: 0.15,
-                  delay: 2.2,
+                  delay: 3,
                   type: "ease",
                   repeat: Infinity,
                   repeatDelay: 0.5,
@@ -164,8 +163,8 @@ export default function Home() {
           <div className="p-4 rounded-2xl bg-gradient-to-b from-white to-slate-50 border-slate-200 shadow-sm border">
             <div className="flex gap-4">
               <Image
-                className="rounded-full border border-blue-200 h-10 w-10"
-                src="/clidrive.jpeg"
+                className="rounded-full border border-black h-10 w-10"
+                src="/clibrain.jpeg"
                 alt="NinetyNine logo"
                 width={40}
                 height={40}
@@ -173,12 +172,13 @@ export default function Home() {
 
               <div className="flex flex-col">
                 <h3 className="font-serif">
-                  Currently Frontend Lead at Clidrive
+                  Currently Frontend Lead at Clibrain
                 </h3>
                 <p className="text-xs text-slate-600">
-                  Joined as the first frontend engineer and built the first
-                  iterations of our websites. Went from 0 to €1M in 3 months.
-                  Added +30 meme stickers to slack in the first week.
+                  Joined as the first frontend engineer to build our first
+                  customer facing apps and websites. I am responsible for the
+                  architecture, code quality, performance and scalability of our
+                  frontend applications.
                 </p>
               </div>
             </div>
@@ -195,8 +195,10 @@ export default function Home() {
                   Previously, Frontend Lead at Ninety Nine
                 </h3>
                 <p className="text-xs text-slate-600">
-                  Designed & developed TypeScript libraries, component
-                  libraries, web trading application and more.
+                  I led the frontend development of the web trading platform
+                  focusing on performance, scalability and code quality. I also
+                  built a TypeScript library and Web Component library to help
+                  other businesses integrate with our APIs.
                 </p>
               </div>
             </div>
