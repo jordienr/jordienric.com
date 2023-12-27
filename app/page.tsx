@@ -59,32 +59,31 @@ export default function Home() {
   ];
 
   return (
-    <div className="max-w-md mx-auto min-h-screen p-4">
-      <header className="text-xl pt-12 text-center">
+    <div className="min-h-screen p-4 max-w-xl mx-auto">
+      <header className="text-xl pt-12">
         <span className="text-orange-500">⌘</span>
         <h1 className="font-semibold">Jordi Enric</h1>
         <h4 className="text-slate-500">UI Engineer</h4>
+        <div className="mt-12 flex divide-x gap-2">
+          {links.map((link, index) => (
+            <motion.a
+              initial={{ opacity: 0, scale: 0.5, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: index * 0.1,
+                type: "spring",
+              }}
+              className="h-10 w-10 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-xl rounded-xl flex items-center justify-center border border-slate-200"
+              key={link.name}
+              href={link.url}
+              target={link.target}
+            >
+              {link.icon}
+            </motion.a>
+          ))}
+        </div>
       </header>
-
-      <section className="mt-12 flex justify-center divide-x gap-2">
-        {links.map((link, index) => (
-          <motion.a
-            initial={{ opacity: 0, scale: 0.5, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{
-              duration: 0.5,
-              delay: index * 0.1,
-              type: "spring",
-            }}
-            className="h-10 w-10 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-xl rounded-xl flex items-center justify-center border border-slate-200"
-            key={link.name}
-            href={link.url}
-            target={link.target}
-          >
-            {link.icon}
-          </motion.a>
-        ))}
-      </section>
 
       <section id="aboutWidget" className="my-4 mt-12">
         <motion.div
@@ -161,11 +160,24 @@ export default function Home() {
           }}
         >
           <div className="p-4 rounded-2xl bg-gradient-to-b from-white to-slate-50 border-slate-200 shadow-sm border">
+            <div className="flex items-center gap-4">
+              <Image
+                className="rounded-full p-1 h-10 w-10"
+                src="/supabase.png"
+                alt="Supabase logo"
+                width={40}
+                height={40}
+              />
+
+              <div className="flex flex-col items-center">
+                <h3 className="">Currently Frontend at Supabase</h3>
+              </div>
+            </div>
             <div className="flex gap-4">
               <Image
                 className="rounded-full border border-black h-10 w-10"
                 src="/clibrain.jpeg"
-                alt="NinetyNine logo"
+                alt="Clibrain logo"
                 width={40}
                 height={40}
               />
@@ -207,7 +219,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      <section id="spotifyWidget" className="my-4 mt-12">
+      {/* <section id="spotifyWidget" className="my-4 mt-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.7, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -227,9 +239,9 @@ export default function Home() {
           ></iframe>
           <p className="text-xs text-center mt-1">Fav 2022 album</p>
         </motion.div>
-      </section>
+      </section> */}
 
-      <section id="projectsWidgets">
+      {/* <section id="projectsWidgets">
         <motion.h2
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -315,7 +327,7 @@ export default function Home() {
             />
           </Link>
         </div>
-      </section>
+      </section> */}
 
       <section id="photosWidget" className="mt-12">
         <motion.div
@@ -331,7 +343,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      <section id="mapWidget" className="mt-12">
+      {/* <section id="mapWidget" className="mt-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.7, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -357,7 +369,7 @@ export default function Home() {
           </div>
           <p className="text-xs text-center mt-1">Location</p>
         </motion.div>
-      </section>
+      </section> */}
 
       <footer className="mt-24 p-12 rounded-lg flex justify-center">
         <Image src="/signature.svg" width="180" height="100" alt="Signature" />
