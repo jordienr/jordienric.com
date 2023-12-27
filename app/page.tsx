@@ -173,7 +173,7 @@ export default function Home() {
                 <h3 className="">Currently Frontend at Supabase</h3>
               </div>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 mt-6">
               <Image
                 className="rounded-full border border-black h-10 w-10"
                 src="/clibrain.jpeg"
@@ -183,9 +183,7 @@ export default function Home() {
               />
 
               <div className="flex flex-col">
-                <h3 className="font-serif">
-                  Currently Frontend Lead at Clibrain
-                </h3>
+                <h3 className="">Prev, Frontend Lead at Clibrain</h3>
                 <p className="text-xs text-slate-600">
                   Joined as the first frontend engineer to build our first
                   customer facing apps and websites. I am responsible for the
@@ -203,9 +201,7 @@ export default function Home() {
                 height={40}
               />
               <div className="flex flex-col">
-                <h3 className="font-serif">
-                  Previously, Frontend Lead at Ninety Nine
-                </h3>
+                <h3 className="">Prev, Frontend Lead at Ninety Nine</h3>
                 <p className="text-xs text-slate-600">
                   I led the frontend development of the web trading platform
                   focusing on performance, scalability and code quality. I also
