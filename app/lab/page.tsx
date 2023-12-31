@@ -19,7 +19,7 @@ import Link from "next/link";
 import LogosWidget from "./LogosWidget";
 import Spotlight from "./Spotlight";
 import SwitchBoard from "./SwitchBoard";
-import AttioCarousel from "./AttioCarousel";
+// import LogoCarousel from "../../components/LogoCarousel";
 import RotatingGradient from "./RotatingGradient";
 
 export default function Lab() {
@@ -260,9 +260,9 @@ export default function Lab() {
           <SwitchBoard />
         </div>
 
-        <div className="hidden w-full rounded-xl bg-white p-8">
-          <AttioCarousel />
-        </div>
+        {/* <div className="hidden w-full rounded-xl bg-white p-8">
+          <LogoCarousel />
+        </div> */}
 
         <div className="hidden w-full rounded-xl bg-white p-8">
           <RotatingGradient />

@@ -28,7 +28,7 @@ export function Navigation() {
           {activeTab === tab.id && (
             <motion.span
               layoutId="bubble"
-              className="absolute inset-0 z-10 bg-white mix-blend-difference"
+              className="absolute inset-0 z-10 bg-orange-50 mix-blend-difference"
               style={{ borderRadius: 9999 }}
               animate={{
                 scale: 1.2,

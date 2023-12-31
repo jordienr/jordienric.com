@@ -78,7 +78,7 @@ export default function Carousel() {
                     ${
                       i === index
                         ? "scale-100 shadow-md z-10"
-                        : "scale-75 opacity-80 blur-sm"
+                        : "scale-75 opacity-80 grayscale"
                     }`}
               />
             ))}
