@@ -39,7 +39,7 @@ export default function SwitchBoard() {
     <motion.div
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className="max-w-md border-[0.3px] shadow-md shadow-slate-200 rounded-md p-4 mx-auto"
+      className="max-w-md border shadow-md shadow-slate-200 rounded-md p-4 mx-auto scale-75 md:scale-100"
     >
       <div className="group ">
         {text.map((row, i) => (

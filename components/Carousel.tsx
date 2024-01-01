@@ -49,7 +49,7 @@ export default function Carousel() {
       <div className="flex justify-center overflow-hidden max-w-full">
         <AnimatePresence initial={false}>
           <motion.button
-            className="bg-white z-10 flex items-center justify-center w-full px-2"
+            className="bg-white z-10 flex items-center justify-center text-slate-400 hover:text-slate-800 transition w-full px-2"
             onClick={() => prevImage()}
           >
             <ChevronLeftIcon />

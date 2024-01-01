@@ -18,6 +18,7 @@ import SwitchBoard from "./lab/SwitchBoard";
 import { Navigation } from "./lab/Navigation";
 import RotatingGradient from "./lab/RotatingGradient";
 import StreaksWidget from "@/components/StreaksWidget";
+import { FAQ } from "@/components/FAQ";
 
 export default function Home() {
   const about =
@@ -25,9 +26,9 @@ export default function Home() {
 
   const links = [
     {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/jordienric/",
-      icon: <FaLinkedinIn />,
+      name: "Twitter",
+      url: "https://twitter.com/jordienr",
+      icon: <FaTwitter />,
       target: "_blank",
     },
     {
@@ -37,9 +38,9 @@ export default function Home() {
       target: "_blank",
     },
     {
-      name: "Twitter",
-      url: "https://twitter.com/jordienr",
-      icon: <FaTwitter />,
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/jordienric/",
+      icon: <FaLinkedinIn />,
       target: "_blank",
     },
     {
@@ -164,13 +165,16 @@ export default function Home() {
             <div className="text-center text-white text-xl cursor-context-menu flex flex-col justify-center items-center">
               Spotlight Hover
               <p className="text-xs mt-1 opacity-80 bg-slate-50/10 inline-block px-3 py-1 rounded-md">
-                Doesn`t work on mobile
+                Doesn&apos;t work on mobile
               </p>
             </div>
           </Spotlight>
         </div>
         <div className="col-span-12 bg-white p-4 rounded-xl shadow-sm border">
           <SwitchBoard />
+          <div className="text-xs mt-4 text-slate-400 text-center">
+            Doesn&apos;t work on mobile
+          </div>
         </div>
 
         <div className="col-span-12">
@@ -202,6 +206,11 @@ export default function Home() {
         {/* <div className="col-span-12">
           <StreaksWidget />
         </div> */}
+      </div>
+
+      <div className="max-w-xl mx-auto mt-12">
+        <h2 className="mb-2">FAQ</h2>
+        <FAQ />
       </div>
 
       <footer className="mt-24 p-12 rounded-lg flex justify-center">
