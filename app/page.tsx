@@ -16,6 +16,8 @@ import AccountWidget from "./lab/AccountWidget";
 import Spotlight from "./lab/Spotlight";
 import SwitchBoard from "./lab/SwitchBoard";
 import { Navigation } from "./lab/Navigation";
+import RotatingGradient from "./lab/RotatingGradient";
+import StreaksWidget from "@/components/StreaksWidget";
 
 export default function Home() {
   const about =
@@ -140,22 +142,10 @@ export default function Home() {
         </section>
       </div>
 
-      <h2 className="text-center font-medium text-slate-600 text-xl mt-12">
+      <h2 className="text-center font-medium text-slate-400 text-xl mt-12">
         My work
       </h2>
       <div className="max-w-xl grid grid-cols-12 mx-auto mt-4 gap-4">
-        {/* <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div>
-        <div className="col-span-1 bg-blue-500 w-full h-4"></div> */}
         <div className="col-span-12">
           <div className="flex justify-center items-center">
             <div className="bg-white max-w-xl w-full rounded-xl shadow-sm border p-2">
@@ -209,6 +199,9 @@ export default function Home() {
             className="w-full rounded-xl shadow-sm border"
           />
         </div>
+        {/* <div className="col-span-12">
+          <StreaksWidget />
+        </div> */}
       </div>
 
       <footer className="mt-24 p-12 rounded-lg flex justify-center">
