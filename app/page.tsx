@@ -146,23 +146,23 @@ export default function Home() {
       <h2 className="text-center font-medium text-slate-400 text-xl mt-12">
         My work
       </h2>
-      <div className="max-w-xl grid grid-cols-12 mx-auto mt-4 gap-4">
-        <div className="col-span-12">
+      <div className="max-w-xl flex flex-col gap-4 mx-auto mt-4 gap-4">
+        <div className="">
           <div className="flex justify-center items-center">
             <div className="bg-white max-w-xl w-full rounded-xl shadow-sm border p-2">
               <LogosWidget />
             </div>
           </div>
         </div>
-        <div className="col-span-12 bg-white border p-1 py-4 rounded-xl shadow-sm">
+        <div className=" bg-white border p-1 py-4 rounded-xl shadow-sm">
           <Carousel />
         </div>
-        <div className="col-span-12 p-4 bg-white border rounded-xl shadow-sm flex items-center justify-center">
+        <div className=" p-4 bg-white border rounded-xl shadow-sm flex items-center justify-center">
           <AccountWidget />
         </div>
-        <div className="col-span-12">
+        <div className="">
           <Spotlight>
-            <div className="text-center text-white text-xl cursor-context-menu flex flex-col justify-center items-center">
+            <div className="text-center text-white text-xl flex flex-col justify-center items-center">
               Spotlight Hover
               <p className="text-xs mt-1 opacity-80 bg-slate-50/10 inline-block px-3 py-1 rounded-md">
                 Doesn&apos;t work on mobile
@@ -170,20 +170,20 @@ export default function Home() {
             </div>
           </Spotlight>
         </div>
-        <div className="col-span-12 bg-white p-4 rounded-xl shadow-sm border">
+        <div className=" bg-white p-4 rounded-xl shadow-sm border">
           <SwitchBoard />
           <div className="text-xs mt-4 text-slate-400 text-center">
             Doesn&apos;t work on mobile
           </div>
         </div>
 
-        <div className="col-span-12">
-          <div className="bg-gradient-to-br from-slate-700 to-slate-900 items-center p-12 rounded-xl flex-grow max-w-full overflow-auto flex justify-center">
+        <div className="">
+          <div className="bg-white border shadow-sm  items-center p-12 rounded-xl flex-grow max-w-full overflow-auto flex justify-center">
             <Navigation />
           </div>
         </div>
-        <div className="col-span-12"></div>
-        <div className="col-span-12 rounded-xl">
+        <div className=""></div>
+        <div className=" rounded-xl">
           <video
             src="/videos/bookmarks.mp4"
             autoPlay
@@ -192,8 +192,21 @@ export default function Home() {
             playsInline
             className="w-full rounded-xl"
           />
+          <p
+            className="
+            mt-2 text-right text-blue-500 text-sm
+          "
+          >
+            <Link
+              href="https://github.com/jordienr/bookmarks-menubar"
+              target="_blank"
+              className="underline p-2"
+            >
+              Bookmarks menubar
+            </Link>
+          </p>
         </div>
-        <div className="col-span-12">
+        <div className="">
           <video
             src="/videos/opensource.mp4"
             loop
@@ -202,10 +215,38 @@ export default function Home() {
             playsInline
             className="w-full rounded-xl shadow-sm border"
           />
+          <p
+            className="
+            mt-2 text-right text-blue-500 text-sm
+          "
+          >
+            <Link
+              href="https://zenblog.com"
+              target="_blank"
+              className="underline p-2"
+            >
+              Zenblog.com
+            </Link>
+          </p>
         </div>
-        {/* <div className="col-span-12">
-          <StreaksWidget />
-        </div> */}
+        <div>
+          <Image
+            src="/vercel-menubar.jpeg"
+            width="1280"
+            height="800"
+            alt="Vercel menubar"
+            className="rounded-xl w-full shadow-sm border"
+          />
+          <p className="mt-2 text-right text-blue-500 text-sm">
+            <Link
+              href="https://github.com/jordienr/vercel-menubar"
+              target="_blank"
+              className="underline p-2"
+            >
+              Vercel menubar
+            </Link>
+          </p>
+        </div>
       </div>
 
       <div className="max-w-xl mx-auto mt-12">

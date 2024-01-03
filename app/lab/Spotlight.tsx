@@ -14,7 +14,7 @@ export default function Spotlight({ children }: { children: React.ReactNode }) {
 
   return (
     <div
-      className="group relative rounded-xl border border-white/10 bg-gradient-to-br from-slate-700 to-slate-900 px-8 py-16 shadow-2xl w-full"
+      className="group relative rounded-xl border border-white/10 bg-gradient-to-br from-slate-700 to-slate-900 px-8 py-16 w-full"
       onMouseMove={handleMouseMove}
     >
       <motion.div
