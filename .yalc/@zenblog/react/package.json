@@ -1,0 +1,32 @@
+{
+  "name": "@zenblog/react",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Zenblog React Components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Jordi Enric",
+  "scripts": {
+    "build": "tsup",
+    "lint": "TIMING=1 eslint \"**/*.{ts,tsx,js,jsx}\" --fix",
+    "publish": "npm publish --access public"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0-0",
+    "react-dom": "^17.0.0 || ^18.0.0-0"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.4.12",
+    "@tiptap/extension-image": "^2.1.16",
+    "@tiptap/pm": "^2.1.16",
+    "@tiptap/react": "^2.1.16",
+    "@tiptap/starter-kit": "^2.1.16",
+    "clsx": "^1.1.1"
+  },
+  "yalcSig": "bf91c2b9929972ba40b3b539cce77673"
+}

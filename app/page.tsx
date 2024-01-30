@@ -183,7 +183,7 @@ export default function Home() {
           </div>
         </div>
         <div className=""></div>
-        <div className=" rounded-xl">
+        {/* <div className=" rounded-xl">
           <video
             src="/videos/bookmarks.mp4"
             autoPlay
@@ -205,7 +205,7 @@ export default function Home() {
               Bookmarks menubar
             </Link>
           </p>
-        </div>
+        </div> */}
         <div className="">
           <video
             src="/videos/opensource.mp4"

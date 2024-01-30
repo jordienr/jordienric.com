@@ -1,0 +1,8 @@
+{
+  "version": "v1",
+  "packages": {
+    "@zenblog/react": {
+      "signature": "bf91c2b9929972ba40b3b539cce77673"
+    }
+  }
+}
