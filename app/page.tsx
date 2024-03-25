@@ -63,13 +63,19 @@ export default function Home() {
         <header className="text-xl pt-12 max-w-xl mx-auto">
           <span className="text-orange-500">⌘</span>
           <h1 className="font-semibold">Jordi Enric</h1>
-          <h4 className="text-slate-400">
+          <h4 className="text-slate-400 flex items-center gap-1">
             Frontend at{" "}
             <Link
-              href="https://supabase.com"
+              href="https://supabase.com?ref=jordienric"
               target="_blank"
-              className="underline cursor-alias text-emerald-500"
+              className=" hover:bg-emerald-100 rounded-full px-2 pr-3 py-1 border border-transparent hover:border-emerald-400 transition-all cursor-alias text-emerald-500 inline-flex items-center gap-1.5"
             >
+              <Image
+                src="/logos/supabase-logo-icon.svg"
+                height="18"
+                width="18"
+                alt="Supabase logo"
+              />
               Supabase
             </Link>
           </h4>

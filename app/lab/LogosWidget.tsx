@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const logos = [
   {
-    name: "React",
-    icon: "react.svg",
+    name: "Supabase",
+    icon: "supabase-wordmark-light.png",
   },
   {
     name: "Next.js",
@@ -22,7 +22,7 @@ const logos = [
 
 function Logo({ name, icon }: { name: string; icon: string }) {
   return (
-    <div className="flex w-[200px] justify-center items-center px-4">
+    <div className="flex w-[200px] h-20 justify-center items-center px-4">
       <Image
         className="object-contain object-center"
         src={`/logos/${icon}`}
