@@ -2,6 +2,8 @@
 import { ContentRenderer } from "@/components/ContentRenderer";
 import { blog } from "@/lib/cms";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home({
   params: { slug },
 }: {
