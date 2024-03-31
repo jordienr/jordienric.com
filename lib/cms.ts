@@ -1,5 +1,15 @@
 import { createClient } from "zenblog";
 
+function getBlogId() {
+  const blogId = process.env.BLOG_ID;
+  if (!blogId) {
+    throw new Error("Please set BLOG_ID in .env.local");
+  }
+
+  return blogId;
+}
+
 export const blog = createClient({
-  blogId: "2df4362a-69a1-40a9-8e88-0aec66a70341",
+  blogId: getBlogId(),
+  debug: true,
 });

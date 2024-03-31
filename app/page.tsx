@@ -43,18 +43,6 @@ export default function Home() {
       icon: <FaLinkedinIn />,
       target: "_blank",
     },
-    {
-      name: "Instagram",
-      url: "https://instagram.com/jordi.enr",
-      icon: <FaInstagram />,
-      target: "_blank",
-    },
-    {
-      name: "Layers",
-      url: "https://layers.to/jordi",
-      icon: <Layers />,
-      target: "_blank",
-    },
   ];
 
   return (
@@ -79,7 +67,7 @@ export default function Home() {
               Supabase
             </Link>
           </h4>
-          <div className="mt-4 flex divide-x gap-2">
+          <div className="mt-4 flex gap-2">
             {links.map((link, index) => (
               <motion.a
                 initial={{ opacity: 0, scale: 0.5, y: 20 }}
@@ -89,7 +77,7 @@ export default function Home() {
                   delay: index * 0.1,
                   type: "spring",
                 }}
-                className="h-10 w-10 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-xl rounded-xl flex items-center justify-center border border-slate-200"
+                className="h-10 w-10 text-slate-600 bg-white shadow-sm hover:text-blue-400 text-xl rounded-xl flex items-center justify-center border border-slate-200"
                 key={link.name}
                 href={link.url}
                 target={link.target}
@@ -97,6 +85,22 @@ export default function Home() {
                 {link.icon}
               </motion.a>
             ))}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0.3,
+                type: "spring",
+              }}
+            >
+              <Link
+                className="h-10 px-4 bg-white text-slate-700 hover:text-blue-500 font-medium rounded-xl flex items-center border border-slate-200 shadow-sm text-sm"
+                href="/blog"
+              >
+                Blog
+              </Link>
+            </motion.div>
           </div>
         </header>
 
@@ -148,48 +152,55 @@ export default function Home() {
           </motion.div>
         </section>
       </div>
-
-      <h2 className="text-center font-medium text-slate-400 text-xl mt-12">
-        My work
-      </h2>
-      <div className="max-w-xl flex flex-col gap-4 mx-auto mt-4 gap-4">
-        <div className="">
-          <div className="flex justify-center items-center">
-            <div className="bg-white max-w-xl w-full rounded-xl shadow-sm border p-2">
-              <LogosWidget />
+      <motion.div
+        className="max-w-xl mx-auto mt-12"
+        initial={{ opacity: 0, scale: 0.7, y: 10 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{
+          duration: 0.3,
+          delay: 0.5,
+          type: "spring",
+        }}
+      >
+        <h2 className="font-medium text-slate-400 text-xl">My work</h2>
+        <div className="max-w-xl flex flex-col gap-4 mx-auto mt-4">
+          <div className="">
+            <div className="flex justify-center items-center">
+              <div className="bg-white max-w-xl w-full rounded-xl shadow-sm border p-2">
+                <LogosWidget />
+              </div>
             </div>
           </div>
-        </div>
-        <div className=" bg-white border p-1 py-4 rounded-xl shadow-sm">
-          <Carousel />
-        </div>
-        <div className=" p-4 bg-white border rounded-xl shadow-sm flex items-center justify-center">
-          <AccountWidget />
-        </div>
-        <div className="">
-          <Spotlight>
-            <div className="text-center text-white text-xl flex flex-col justify-center items-center">
-              Spotlight Hover
-              <p className="text-xs mt-1 opacity-80 bg-slate-50/10 inline-block px-3 py-1 rounded-md">
-                Doesn&apos;t work on mobile
-              </p>
+          <div className=" bg-white border p-1 py-4 rounded-xl shadow-sm">
+            <Carousel />
+          </div>
+          <div className=" p-4 bg-white border rounded-xl shadow-sm flex items-center justify-center">
+            <AccountWidget />
+          </div>
+          <div className="">
+            <Spotlight>
+              <div className="text-center text-white text-xl flex flex-col justify-center items-center">
+                Spotlight Hover
+                <p className="text-xs mt-1 opacity-80 bg-slate-50/10 inline-block px-3 py-1 rounded-md">
+                  Doesn&apos;t work on mobile
+                </p>
+              </div>
+            </Spotlight>
+          </div>
+          <div className=" bg-white p-4 rounded-xl shadow-sm border">
+            <SwitchBoard />
+            <div className="text-xs mt-4 text-slate-400 text-center">
+              Doesn&apos;t work on mobile
             </div>
-          </Spotlight>
-        </div>
-        <div className=" bg-white p-4 rounded-xl shadow-sm border">
-          <SwitchBoard />
-          <div className="text-xs mt-4 text-slate-400 text-center">
-            Doesn&apos;t work on mobile
           </div>
-        </div>
 
-        <div className="">
-          <div className="bg-white border shadow-sm  items-center p-12 rounded-xl flex-grow max-w-full overflow-auto flex justify-center">
-            <Navigation />
+          <div className="">
+            <div className="bg-white border shadow-sm  items-center p-12 rounded-xl flex-grow max-w-full overflow-auto flex justify-center">
+              <Navigation />
+            </div>
           </div>
-        </div>
-        <div className=""></div>
-        {/* <div className=" rounded-xl">
+          <div className=""></div>
+          {/* <div className=" rounded-xl">
           <video
             src="/videos/bookmarks.mp4"
             autoPlay
@@ -212,57 +223,63 @@ export default function Home() {
             </Link>
           </p>
         </div> */}
-        <div className="">
-          <video
-            src="/videos/opensource.mp4"
-            loop
-            muted
-            autoPlay
-            playsInline
-            className="w-full rounded-xl shadow-sm border"
-          />
-          <p
-            className="
+          <div className="">
+            <video
+              src="/videos/opensource.mp4"
+              loop
+              muted
+              autoPlay
+              playsInline
+              className="w-full rounded-xl shadow-sm border"
+            />
+            <p
+              className="
             mt-2 text-right text-blue-500 text-sm
           "
-          >
-            <Link
-              href="https://zenblog.com"
-              target="_blank"
-              className="underline p-2"
             >
-              Zenblog.com
-            </Link>
-          </p>
+              <Link
+                href="https://zenblog.com"
+                target="_blank"
+                className="underline p-2"
+              >
+                Zenblog.com
+              </Link>
+            </p>
+          </div>
+          <div>
+            <Image
+              src="/vercel-menubar.jpeg"
+              width="1280"
+              height="800"
+              alt="Vercel menubar"
+              className="rounded-xl w-full shadow-sm border"
+            />
+            <p className="mt-2 text-right text-blue-500 text-sm">
+              <Link
+                href="https://github.com/jordienr/vercel-menubar"
+                target="_blank"
+                className="underline p-2"
+              >
+                Vercel menubar
+              </Link>
+            </p>
+          </div>
         </div>
-        <div>
+
+        <div className="max-w-xl mx-auto mt-12">
+          <h2 className="mb-2">FAQ</h2>
+          <FAQ />
+        </div>
+
+        <footer className="mt-24 p-12 rounded-lg flex justify-center">
           <Image
-            src="/vercel-menubar.jpeg"
-            width="1280"
-            height="800"
-            alt="Vercel menubar"
-            className="rounded-xl w-full shadow-sm border"
+            src="/signature.svg"
+            width="180"
+            height="100"
+            alt="Signature"
           />
-          <p className="mt-2 text-right text-blue-500 text-sm">
-            <Link
-              href="https://github.com/jordienr/vercel-menubar"
-              target="_blank"
-              className="underline p-2"
-            >
-              Vercel menubar
-            </Link>
-          </p>
-        </div>
-      </div>
-
-      <div className="max-w-xl mx-auto mt-12">
-        <h2 className="mb-2">FAQ</h2>
-        <FAQ />
-      </div>
-
-      <footer className="mt-24 p-12 rounded-lg flex justify-center">
-        <Image src="/signature.svg" width="180" height="100" alt="Signature" />
-      </footer>
+        </footer>
+      </motion.div>
     </div>
   );
 }
