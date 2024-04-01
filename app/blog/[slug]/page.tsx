@@ -5,7 +5,6 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const dynamic = "force-dynamic";
-export const revalidate = 60;
 
 export async function generateMetadata({
   params: { slug },
@@ -37,7 +36,7 @@ export default async function Home({
     <main className="px-2">
       {post.cover_image && (
         <img
-          className="mx-auto max-w-4xl border"
+          className="mx-auto max-w-4xl border w-full"
           src={post.cover_image}
           alt={post.title}
         />
