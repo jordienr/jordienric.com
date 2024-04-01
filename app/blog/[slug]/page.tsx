@@ -4,20 +4,14 @@ import { blog } from "@/lib/cms";
 import { Metadata } from "next";
 import Link from "next/link";
 
-export const dynamic = "force-dynamic";
-
-const metadata: Metadata = {
-  title: "Jordi Enric - Blog",
-  description: "A blog about design, engineering and other things.",
-};
-
 export async function generateMetadata({
   params: { slug },
 }: any): Promise<Metadata> {
   const post = await blog.posts.getBySlug(slug);
 
   return {
-    title: post.title,
+    title: `${post.title} - Jordi Enric`,
+    description: "A blog about design, engineering and other things.",
     openGraph: {
       images: [
         {
