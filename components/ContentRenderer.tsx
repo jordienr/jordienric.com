@@ -16,7 +16,7 @@ export const ContentRenderer = ({ content }: Props) => {
     editable: false,
   });
   return (
-    <div className="prose">
+    <div className="prose-sm prose-headings:font-normal prose-p:text-slate-700">
       <EditorContent editor={editor}></EditorContent>
     </div>
   );

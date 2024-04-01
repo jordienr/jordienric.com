@@ -1,22 +1,20 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import React, { PropsWithChildren } from "react";
 
 type Props = {};
 
-export const metadata: Metadata = {
-  title: "Jordi Enric · Blog",
-  description: "A blog about design, engineering and other things.",
-  openGraph: {
-    images: [
-      {
-        url: "https://www.zenblog.com/api/og?title=best reads&emoji=🌴&url=Jordi Enric",
-        href: "https://www.zenblog.com/api/og?title=best reads&emoji=🌴&url=Jordi Enric",
-      },
-    ],
-  },
-};
 const layout = (props: PropsWithChildren<Props>) => {
-  return <>{props.children}</>;
+  return (
+    <>
+      <nav className="max-w-xl mx-auto p-2">
+        <Link href="/blog" className="p-2 text-sm">
+          Blog
+        </Link>
+      </nav>
+      {props.children}
+    </>
+  );
 };
 
 export default layout;
