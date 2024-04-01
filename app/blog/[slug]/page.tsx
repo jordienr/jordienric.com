@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const dynamic = "force-dynamic";
+export const revalidate = 60;
 
 export async function generateMetadata({
   params: { slug },
