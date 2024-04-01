@@ -4,6 +4,8 @@ import { blog } from "@/lib/cms";
 import { Metadata } from "next";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params: { slug },
 }: any): Promise<Metadata> {
