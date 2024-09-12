@@ -44,7 +44,7 @@ export default async function Home({
       <div className="prose mx-auto max-w-xl p-4">
         <h1 className="text-2xl font-medium mb-4">{post.title}</h1>
         <div className="prose">
-          <div dangerouslySetInnerHTML={{ __html: post.html_content }} />
+          {/* <div dangerouslySetInnerHTML={{ __html: post.html_content as any }} /> */}
         </div>
       </div>
       <footer className="max-w-xl mx-auto py-16 border-t mt-6 px-4 text-slate-600 text-sm grid gap-2">
