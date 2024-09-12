@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
     <div className="grid md:grid-cols-2 [&_a]:cursor-default">
-      <div className="max-w-xl md:mx-8">
+      <div className="max-w-xl mx-4 md:mx-8">
         <div className="max-w-xl mx-auto">
           <header className="pt-12">
             <h1 className="font-semibold text-xl px-1.5">Jordi Enric</h1>
