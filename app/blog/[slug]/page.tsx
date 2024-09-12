@@ -9,7 +9,7 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata({
   params: { slug },
 }: any): Promise<Metadata> {
-  const post = await blog.posts.getBySlug(slug);
+  const post = await blog.posts.get({ slug });
 
   return {
     title: `${post.title} - Jordi Enric`,
@@ -30,7 +30,7 @@ export default async function Home({
 }: {
   params: { slug: string };
 }) {
-  const post = await blog.posts.getBySlug(slug);
+  const post = await blog.posts.get({ slug });
 
   return (
     <main className="px-2">
@@ -43,7 +43,9 @@ export default async function Home({
       )}
       <div className="prose mx-auto max-w-xl p-4">
         <h1 className="text-2xl font-medium mb-4">{post.title}</h1>
-        <ContentRenderer content={post.content}></ContentRenderer>
+        <div className="prose">
+          <div dangerouslySetInnerHTML={{ __html: post.html_content }} />
+        </div>
       </div>
       <footer className="max-w-xl mx-auto py-16 border-t mt-6 px-4 text-slate-600 text-sm grid gap-2">
         <Link href="/blog">Back to blog</Link>

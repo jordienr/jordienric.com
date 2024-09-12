@@ -1,285 +1,153 @@
 "use client";
 
+import PhotosWidget from "@/components/PhotosWidget";
 import { motion } from "framer-motion";
-import { FlaskRound, Layers, Phone } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FaLinkedinIn,
-  FaGithubAlt,
-  FaTwitter,
-  FaInstagram,
-} from "react-icons/fa";
-import Carousel from "@/components/Carousel";
-import LogosWidget from "./lab/LogosWidget";
-import AccountWidget from "./lab/AccountWidget";
-import Spotlight from "./lab/Spotlight";
-import SwitchBoard from "./lab/SwitchBoard";
-import { Navigation } from "./lab/Navigation";
-import RotatingGradient from "./lab/RotatingGradient";
-import StreaksWidget from "@/components/StreaksWidget";
-import { FAQ } from "@/components/FAQ";
+import { FaLinkedinIn, FaGithubAlt, FaTwitter } from "react-icons/fa";
+import photos from "../public/photos.json";
+
+const randomPhoto = photos[Math.floor(Math.random() * photos.length)];
 
 export default function Home() {
-  const about =
-    "I'm a frontend developer focused on building beautiful, snappy user interfaces and performant, scalable web applications.";
-
+  const iconProps = {
+    size: 16,
+  };
   const links = [
     {
       name: "Twitter",
       url: "https://twitter.com/jordienr",
-      icon: <FaTwitter />,
+      icon: <FaTwitter {...iconProps} />,
       target: "_blank",
     },
     {
       name: "GitHub",
       url: "https://github.com/jordienr",
-      icon: <FaGithubAlt />,
+      icon: <FaGithubAlt {...iconProps} />,
       target: "_blank",
     },
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/jordienric/",
-      icon: <FaLinkedinIn />,
+      icon: <FaLinkedinIn {...iconProps} />,
       target: "_blank",
     },
   ];
 
   return (
-    <div className="min-h-screen p-4 bg-slate-50">
-      <div className="max-w-xl mx-auto">
-        <header className="text-xl pt-12 max-w-xl mx-auto">
-          <span className="text-orange-500">⌘</span>
-          <h1 className="font-semibold">Jordi Enric</h1>
-          <h4 className="text-slate-400 flex items-center gap-1">
-            Frontend at{" "}
-            <Link
-              href="https://supabase.com?ref=jordienric"
-              target="_blank"
-              className=" hover:bg-emerald-100 rounded-full px-2 pr-3 py-1 border border-transparent hover:border-emerald-400 transition-all cursor-alias text-emerald-500 inline-flex items-center gap-1.5"
-            >
-              <Image
-                src="/logos/supabase-logo-icon.svg"
-                height="18"
-                width="18"
-                alt="Supabase logo"
-              />
-              Supabase
-            </Link>
-          </h4>
-          <div className="mt-4 flex gap-2">
-            {links.map((link, index) => (
-              <motion.a
-                initial={{ opacity: 0, scale: 0.5, y: 20 }}
-                animate={{ opacity: 1, scale: 1, y: 0 }}
-                transition={{
-                  duration: 0.5,
-                  delay: index * 0.1,
-                  type: "spring",
-                }}
-                className="h-10 w-10 text-slate-600 bg-white shadow-sm hover:text-blue-400 text-xl rounded-xl flex items-center justify-center border border-slate-200"
-                key={link.name}
-                href={link.url}
-                target={link.target}
-              >
-                {link.icon}
-              </motion.a>
-            ))}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.5, y: 20 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              transition={{
-                duration: 0.5,
-                delay: 0.3,
-                type: "spring",
-              }}
-            >
+    <div className="grid md:grid-cols-2 [&_a]:cursor-default">
+      <div className="max-w-xl md:mx-8">
+        <div className="max-w-xl mx-auto">
+          <header className="pt-12">
+            <h1 className="font-semibold text-xl px-1.5">Jordi Enric</h1>
+            <h4 className="flex px-1.5 text-lg items-center gap-1">
+              Frontend at{" "}
               <Link
-                className="h-10 px-4 bg-white text-slate-700 hover:text-blue-500 font-medium rounded-xl flex items-center border border-slate-200 shadow-sm text-sm"
-                href="/blog"
+                href="https://supabase.com?ref=jordienric"
+                target="_blank"
+                className="transition-all text-emerald-600 inline-flex items-center gap-1.5 hover:underline"
               >
-                Blog
+                <Image
+                  src="/logos/supabase-logo-icon.svg"
+                  height="15"
+                  width="15"
+                  alt="Supabase logo"
+                />
+                Supabase
               </Link>
-            </motion.div>
-          </div>
-        </header>
-
-        <section id="aboutWidget" className="my-4 mt-12">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.7, y: 10 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{
-              duration: 0.4,
-              type: "spring",
-            }}
-          >
-            <div className="px-4 py-3 rounded-xl bg-white shadow-sm border">
-              <div className="flex gap-1.5 text-xs items-center font-mono font-medium text-orange-500">
-                about_me.md
-              </div>
-              <p className="mt-2 text-slate-800 font-mono">
-                {about.split("").map((char, index) => {
-                  return (
-                    <motion.span
-                      key={index}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{
-                        duration: 0.05,
-                        delay: index * 0.025,
-                        type: "spring",
-                      }}
-                    >
-                      {char}
-                    </motion.span>
-                  );
-                })}
-                <motion.span
+            </h4>
+            <div className="mt-4 grid">
+              {links.map((link, index) => (
+                <motion.a
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{
-                    duration: 0.15,
-                    delay: 3,
-                    type: "ease",
-                    repeat: Infinity,
-                    repeatDelay: 0.5,
-                    repeatType: "reverse",
+                    duration: 0.5,
+                    delay: index * 0.2,
+                    type: "spring",
                   }}
-                  className="h-5 w-1 -mb-0.5 bg-orange-500 inline-block"
-                ></motion.span>
-              </p>
+                  className="group p-1.5 gap-3 flex items-center border-b hover:border-slate-400 transition-all"
+                  key={link.name}
+                  href={link.url}
+                  target={link.target}
+                  title={link.name}
+                >
+                  <span className="text-slate-500 transition-all group-hover:text-slate-700">
+                    {link.icon}
+                  </span>
+                  <span className="text-sm">{link.name}</span>
+                  <span className="opacity-0 group-hover:opacity-100 transition-all">
+                    <ArrowUpRight size="14" />
+                  </span>
+                </motion.a>
+              ))}
             </div>
-          </motion.div>
-        </section>
-      </div>
-      <motion.div
-        className="max-w-xl mx-auto mt-12"
-        initial={{ opacity: 0, scale: 0.7, y: 10 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{
-          duration: 0.3,
-          delay: 0.5,
-          type: "spring",
-        }}
-      >
-        <h2 className="font-medium text-slate-400 text-xl">My work</h2>
-        <div className="max-w-xl flex flex-col gap-4 mx-auto mt-4">
-          <div className="">
-            <div className="flex justify-center items-center">
-              <div className="bg-white max-w-xl w-full rounded-xl shadow-sm border p-2">
-                <LogosWidget />
-              </div>
-            </div>
-          </div>
-          <div className=" bg-white border p-1 py-4 rounded-xl shadow-sm">
-            <Carousel />
-          </div>
-          <div className=" p-4 bg-white border rounded-xl shadow-sm flex items-center justify-center">
-            <AccountWidget />
-          </div>
-          <div className="">
-            <Spotlight>
-              <div className="text-center text-white text-xl flex flex-col justify-center items-center">
-                Spotlight Hover
-                <p className="text-xs mt-1 opacity-80 bg-slate-50/10 inline-block px-3 py-1 rounded-md">
-                  Doesn&apos;t work on mobile
-                </p>
-              </div>
-            </Spotlight>
-          </div>
-          <div className=" bg-white p-4 rounded-xl shadow-sm border">
-            <SwitchBoard />
-            <div className="text-xs mt-4 text-slate-400 text-center">
-              Doesn&apos;t work on mobile
-            </div>
-          </div>
+          </header>
 
-          <div className="">
-            <div className="bg-white border shadow-sm  items-center p-12 rounded-xl flex-grow max-w-full overflow-auto flex justify-center">
-              <Navigation />
-            </div>
-          </div>
-          <div className=""></div>
-          {/* <div className=" rounded-xl">
-          <video
-            src="/videos/bookmarks.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full rounded-xl"
-          />
-          <p
-            className="
-            mt-2 text-right text-blue-500 text-sm
-          "
-          >
-            <Link
-              href="https://github.com/jordienr/bookmarks-menubar"
-              target="_blank"
-              className="underline p-2"
+          <section id="aboutWidget" className="my-4 mt-8">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.7, y: 10 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{
+                duration: 0.4,
+                type: "spring",
+              }}
             >
-              Bookmarks menubar
-            </Link>
-          </p>
-        </div> */}
-          <div className="">
-            <video
-              src="/videos/opensource.mp4"
-              loop
-              muted
-              autoPlay
-              playsInline
-              className="w-full rounded-xl shadow-sm border"
-            />
-            <p
-              className="
-            mt-2 text-right text-blue-500 text-sm
-          "
-            >
-              <Link
-                href="https://zenblog.com"
-                target="_blank"
-                className="underline p-2"
-              >
-                Zenblog.com
-              </Link>
-            </p>
-          </div>
-          <div>
-            <Image
-              src="/vercel-menubar.jpeg"
-              width="1280"
-              height="800"
-              alt="Vercel menubar"
-              className="rounded-xl w-full shadow-sm border"
-            />
-            <p className="mt-2 text-right text-blue-500 text-sm">
-              <Link
-                href="https://github.com/jordienr/vercel-menubar"
-                target="_blank"
-                className="underline p-2"
-              >
-                Vercel menubar
-              </Link>
-            </p>
-          </div>
+              <div className="px-1.5">
+                <div className="flex gap-1.5 text-xs items-center font-medium opacity-40">
+                  About me
+                </div>
+                <div className="mt-2 text-slate-800 space-y-3 text-xl">
+                  <p>
+                    I am a frontend developer from Mallorca, Spain 🏝️ with a
+                    passion for building beautiful, snappy, and performant web
+                    applications.
+                  </p>
+                  <p>
+                    I have worked at big tech companies and small and medium
+                    startups. Even though I focus on the frontend, I am
+                    comfortable with all parts of the stack, from designing UIs,
+                    publishing npm packages, building backend APIs and
+                    databases.
+                  </p>
+                  <p>
+                    Currently, I am working at Supabase, an open source postgres
+                    development platform with authentication, realtime, storage,
+                    logs and analytics, and more! I focus on observability and
+                    helping developers build better applications.
+                  </p>
+                  <p>
+                    Outside of work, I am a big fan of taking photos 📷
+                    barbecuing 🍖 playing music 🎸 traveling 🧳 hiking 🥾 and
+                    learning new things 📚
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </section>
         </div>
 
-        <div className="max-w-xl mx-auto mt-12">
-          <h2 className="mb-2">FAQ</h2>
-          <FAQ />
-        </div>
-
-        <footer className="mt-24 p-12 rounded-lg flex justify-center">
+        <footer className="py-12 px-4 rounded-lg flex justify-end">
           <Image
             src="/signature.svg"
-            width="180"
+            width="120"
             height="100"
             alt="Signature"
           />
         </footer>
-      </motion.div>
+      </div>
+      <div className="hidden md:block sticky top-0 h-screen">
+        <Image
+          width={1000}
+          height={1500}
+          blurDataURL={`/photos/${randomPhoto}`}
+          placeholder="blur"
+          className="h-screen object-cover"
+          src={`/photos/${randomPhoto}`}
+          alt="Random photo"
+        />
+      </div>
     </div>
   );
 }
