@@ -1,11 +1,14 @@
 "use client";
 
-import PhotosWidget from "@/components/PhotosWidget";
-import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaLinkedinIn, FaGithubAlt, FaTwitter } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaGithubAlt,
+  FaTwitter,
+  FaPencilAlt,
+} from "react-icons/fa";
 import photos from "../public/photos.json";
 
 const randomPhoto = photos[Math.floor(Math.random() * photos.length)];
@@ -33,6 +36,12 @@ export default function Home() {
       icon: <FaLinkedinIn {...iconProps} />,
       target: "_blank",
     },
+    {
+      name: "Blog",
+      url: "https://jordi.zenblog.com",
+      icon: <FaPencilAlt />,
+      target: "_blank",
+    },
   ];
 
   return (
@@ -40,12 +49,12 @@ export default function Home() {
       <div className="max-w-2xl px-6 mx-auto">
         <header className="pt-12">
           <h1 className="font-semibold text-xl px-1.5">Jordi Enric</h1>
-          <h4 className="flex px-1.5 text-lg items-center gap-1">
+          <h4 className="flex px-1.5 text-lg items-center gap-1 text-slate-500">
             Frontend at{" "}
             <Link
               href="https://supabase.com?ref=jordienric"
               target="_blank"
-              className="transition-all text-emerald-600 inline-flex items-center gap-1.5 hover:underline"
+              className="transition-all text-emerald-500 inline-flex items-center gap-1.5 hover:underline"
             >
               <Image
                 src="/logos/supabase-logo-icon.svg"
@@ -84,25 +93,31 @@ export default function Home() {
             </div>
             <div className="mt-2 text-slate-800 space-y-3 text-xl">
               <p>
-                I am a frontend developer from Mallorca, Spain 🏝️ with a passion
-                for building beautiful, snappy, and performant web applications.
+                I am a frontend developer from Mallorca, Spain 🏝️, passionate
+                about creating beautiful and fast web applications.
               </p>
               <p>
-                I have worked at big tech companies and small and medium
-                startups. Even though I focus on the frontend, I am comfortable
-                with all parts of the stack, from designing UIs, publishing npm
-                packages, building backend APIs and databases.
+                I have worked at both big tech companies and small startups.
+                While I specialize in front end, I understand the full stack,
+                from UI design to backend APIs and databases.
               </p>
               <p>
-                Currently, I am working at Supabase, an open source postgres
-                development platform with authentication, realtime, storage,
-                logs and analytics, and more! I focus on observability and
-                helping developers build better applications.
+                I currently work at Supabase, an open-source Postgres
+                development platform, focusing on observability and aiding
+                developers in building better apps. I am also working on{" "}
+                <Link
+                  className="underline text-blue-500"
+                  href="https://zenblog.com"
+                  target="_blank"
+                >
+                  zenblog.com
+                </Link>
+                , an open-source headless CMS for blogging.
               </p>
               <p>
-                Outside of work, I am a big fan of taking photos 📷 barbecuing
-                🍖 playing music 🎸 traveling 🧳 hiking 🥾 and learning new
-                things 📚
+                Outside of work, I am a big fan of photography 📷 barbecuing 🍖
+                playing music 🎸 traveling 🧳 hiking 🥾 and learning new things
+                📚
               </p>
             </div>
           </div>
