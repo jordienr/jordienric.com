@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -9,63 +9,63 @@
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
- 
+
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
- 
+
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
- 
+
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
- 
+
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
- 
+
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
- 
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
- 
+
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
- 
+
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
- 
+
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
- 
+
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
- 
+
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
- 
+
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
- 
+
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
- 
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
- 
+
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
@@ -73,4 +73,48 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+:root {
+  --sh-class: #54e1ca;
+  --sh-identifier: #b5c3b7;
+  --sh-sign: #8996a3;
+  --sh-property: #acf581;
+  --sh-entity: #80bff7;
+  --sh-jsxliterals: #c0a0fb;
+  --sh-string: #39f6ba;
+  --sh-keyword: #ff958e;
+  --sh-comment: #708370;
+}
+
+pre code span.sh__token--class {
+  color: var(--sh-class);
+}
+pre code span.sh__token--identifier {
+  color: var(--sh-identifier);
+}
+pre code span.sh__token--sign {
+  color: var(--sh-sign);
+}
+pre code span.sh__token--property {
+  color: var(--sh-property);
+}
+pre code span.sh__token--entity {
+  color: var(--sh-entity);
+}
+pre code span.sh__token--jsxliterals {
+  color: var(--sh-jsxliterals);
+}
+pre code span.sh__token--string {
+  color: var(--sh-string);
+}
+pre code span.sh__token--keyword {
+  color: var(--sh-keyword);
+}
+pre code span.sh__token--comment {
+  color: var(--sh-comment);
+}
+
+.container {
+  @apply max-w-2xl md:px-6 mx-auto px-3;
 }
