@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="selection:bg-yellow-200 antialiased [&_a]:cursor-default tracking-[-0.017em]">
+      <body className="selection:bg-yellow-200 antialiased [&_a]:cursor-default tracking-[-0.017em] bg-slate-50/50">
         <header className="pt-12 px-1 container">
           <h1 className="font-semibold text-xl px-3">Jordi Enric</h1>
           <h4 className="flex px-3 text-lg items-center gap-1 text-slate-500">
@@ -58,7 +58,7 @@ export default function RootLayout({
           <div className="mt-4 flex flex-wrap gap-2">
             {links.map((link, index) => (
               <a
-                className="group p-1.5 gap-3 flex items-center border border-white rounded-full px-3 transition-all font-medium bg-white hover:border-slate-200"
+                className="group p-1.5 gap-3 flex items-center border border-white rounded-full px-3 transition-all font-medium hover:bg-white hover:border-slate-200 hover:shadow-sm"
                 key={link.name}
                 href={link.url}
                 target={link.target}
