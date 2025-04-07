@@ -1,6 +1,8 @@
 import { PostList } from "@/components/blog";
 import { blog } from "@/lib/cms";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home({
   searchParams,
 }: {
