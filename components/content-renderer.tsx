@@ -1,53 +1,83 @@
-"use client";
-
 import Link from "next/link";
 import { highlight } from "sugar-high";
-import { motion } from "framer-motion";
+import ReactPlayer from "react-player";
+import parse, { domToReact } from "html-react-parser";
+import { VideoWrapper } from "./video-wrapper";
+
 type Props = {
   content: string;
 };
+
 export const ContentRenderer = ({ content }: Props) => {
-  const domParser = new DOMParser();
+  // images.forEach((img) => {
+  //   img.setAttribute("loading", "lazy");
+  //   img.setAttribute("decoding", "async");
+  // });
 
-  const parsed = domParser.parseFromString(content, "text/html");
+  // links.forEach((link) => {
+  //   link.setAttribute("target", "_blank");
+  // });
 
-  const images = parsed.querySelectorAll("img");
+  // codeBlocks.forEach((codeBlock) => {
+  //   const text = codeBlock.textContent;
+  //   if (!text) return;
+  //   const highlighted = highlight(text);
+  //   codeBlock.innerHTML = highlighted;
+  // });
 
-  images.forEach((img) => {
-    img.setAttribute("loading", "lazy");
-    img.setAttribute("decoding", "async");
-  });
+  const parseStyleString = (styleString: string) => {
+    return styleString.split(";").reduce((acc: any, style) => {
+      const [key, value] = style.split(":").map((s) => s?.trim());
+      if (key && value) {
+        // Convert kebab-case to camelCase
+        const camelKey = key.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+        acc[camelKey] = value;
+      }
+      return acc;
+    }, {});
+  };
 
-  const links = parsed.querySelectorAll("a");
+  const CustomHTMLRenderer = ({ htmlString }: { htmlString: string }) => {
+    return parse(htmlString, {
+      replace: (domNode: any) => {
+        if (domNode.name === "video") {
+          const { style, ...rest } = domNode.attribs || {};
+          const parsedStyle = style ? parseStyleString(style) : undefined;
+          return <VideoWrapper {...rest} style={parsedStyle} />;
+        }
 
-  links.forEach((link) => {
-    link.setAttribute("target", "_blank");
-  });
+        if (domNode.name === "img") {
+          const { style, ...rest } = domNode.attribs || {};
+          const parsedStyle = style ? parseStyleString(style) : undefined;
+          return <img {...rest} style={parsedStyle} />;
+        }
 
-  const codeBlocks = parsed.querySelectorAll("pre");
+        if (domNode.name === "a") {
+          const { style, ...rest } = domNode.attribs || {};
+          const parsedStyle = style ? parseStyleString(style) : undefined;
+          return (
+            <a {...rest} style={parsedStyle} target="_blank">
+              {domToReact(domNode.children)}
+            </a>
+          );
+        }
 
-  codeBlocks.forEach((codeBlock) => {
-    const text = codeBlock.textContent;
-    if (!text) return;
-    const highlighted = highlight(text);
-    codeBlock.innerHTML = highlighted;
-  });
-
+        if (domNode.name === "pre") {
+          const { style, ...rest } = domNode.attribs || {};
+          const parsedStyle = style ? parseStyleString(style) : undefined;
+          const highlighted = highlight(domNode?.innerHTML);
+          return (
+            <pre {...rest} style={parsedStyle}>
+              {highlighted}
+            </pre>
+          );
+        }
+      },
+    });
+  };
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 10, filter: "blur(10px)" }}
-      animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      className="prose prose-img:rounded-lg prose-img:shadow-lg prose-code:reset  prose-headings:tracking-tight prose-headings:text-2xl prose-headings:font-serif prose-headings:text-slate-800 prose-headings:font-light prose-headings:mt-24 [&_ul>li>p]:my-0"
-    >
-      <div
-        dangerouslySetInnerHTML={{
-          __html: parsed.body.innerHTML,
-        }}
-      ></div>
-      <p className="mt-12">
-        <Link href="/">Back to all posts</Link>
-      </p>
-    </motion.div>
+    <div className="prose prose-img:rounded-lg prose-img:shadow-lg prose-code:reset  prose-headings:tracking-tight prose-headings:text-2xl prose-headings:font-serif prose-headings:text-slate-800 prose-headings:font-light prose-headings:mt-24 [&_ul>li>p]:my-0">
+      <CustomHTMLRenderer htmlString={content} />
+    </div>
   );
 };

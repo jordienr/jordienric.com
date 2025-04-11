@@ -1,3 +1,4 @@
+import { HiDocument } from "react-icons/hi2";
 const ICONS = {
   bookmark: (
     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -36,11 +37,17 @@ export const Icon = ({
   width?: number;
   height?: number;
 }) => {
-  if (!(icon in ICONS)) {
-    return null;
+  console.log(icon);
+  if (!(icon in ICONS) || !icon) {
+    return (
+      <div className={className} style={{ width, height }}>
+        <HiDocument />
+      </div>
+    );
   }
 
   const Component = () => ICONS[icon as keyof typeof ICONS];
+
   return (
     <div className={className} style={{ width, height }}>
       <Component />

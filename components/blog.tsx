@@ -29,8 +29,12 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
   };
 
   return (
-    <div className="">
-      <h2 className="font-semibold p-1 mb-4 px-3 group">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.1 }}
+    >
+      <h2 className="font-semibold p-1 mb-4 px-3 group mt-12">
         <Link href={getHref("thought")} className={classNames("thought")}>
           Thoughts
         </Link>
@@ -52,31 +56,50 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
             Nothing here yet.
           </div>
         )}
-        {posts?.map((post, idx) => (
-          <motion.div
-            key={post.slug}
-            initial={{ opacity: 0, y: 10, filter: "blur(10px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            transition={{ duration: 0.3, delay: idx * 0.1 + 0.1 }}
-            className="rounded-2xl p-1 hover:bg-slate-100 group"
-          >
-            <Link
-              href={`/writing/${post.slug}`}
-              className="rounded-xl py-2.5 transition-colors duration-150 px-3 border border-white text-slate-800 group-hover:border-slate-200 group-hover:bg-white group-hover:shadow-sm flex gap-2"
+        <div className="">
+          {posts?.map((post, idx) => (
+            <motion.div
+              key={post.slug}
+              initial={{ opacity: 0, y: 10, filter: "blur(10px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              transition={{ duration: 0.3, delay: idx * 0.1 + 0.1 }}
+              className="group"
             >
-              <div className="mt-1.5">
-                {post.tags.length > 0 && (
-                  <Icon className="text-slate-400" icon={post.tags[0].name} />
-                )}
-              </div>
-              <div className="grid">
-                <span className="font-medium">{post.title}</span>
-                <span className="text-muted-foreground">{post.excerpt}</span>
-              </div>
-            </Link>
-          </motion.div>
-        ))}
+              <Link
+                href={`/writing/${post.slug}`}
+                className="transition-colors rounded-xl duration-150 border  text-slate-800 border-slate-200 bg-white grid group-hover:border-slate-300"
+              >
+                {post.cover_image ? (
+                  <div className="relative px-1.5 pt-1.5">
+                    <img
+                      src={post.cover_image}
+                      alt={post.title}
+                      className="object-cover h-[280px] w-full rounded-lg object-top"
+                    />
+                  </div>
+                ) : null}
+                <div className="flex gap-2 px-3 py-2.5">
+                  <div className="mt-1">
+                    {post.tags.length > 0 && (
+                      <Icon
+                        className="text-slate-400"
+                        icon={post.tags[0].name}
+                      />
+                    )}
+                  </div>
+                  <div className="grid">
+                    <span className="font-medium">{post.title}</span>
+                    <span className="text-muted-foreground">
+                      {post.excerpt}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+              <hr className="my-2 mx-4 border-slate-100" />
+            </motion.div>
+          ))}
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };

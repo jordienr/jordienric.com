@@ -50,14 +50,14 @@ export default async function Home({
   };
 
   return (
-    <div>
-      <div className="container">
-        <Link
-          href="/"
-          className="flex items-center gap-2 size-8 justify-center mx-1 hover:bg-slate-50 rounded-xl text-slate-500 hover:text-slate-700 transition-all"
-        >
-          <HiArrowUturnLeft className="w-4 h-4" />
-        </Link>
+    <div className="container">
+      <Link
+        href="/"
+        className="inline-flex mt-6 px-2 items-center gap-2 justify-center mx-1 hover:bg-slate-50 rounded-xl text-slate-500 hover:text-slate-700 transition-all"
+      >
+        <HiArrowUturnLeft className="w-4 h-4" /> Back
+      </Link>
+      <div className="bg-white border rounded-lg max-w-4xl mx-auto mt-6 px-4 py-2">
         <div className="p-3">
           <p className="text-sm font-medium text-slate-400">
             {formatDate(post.published_at || "")}
@@ -82,6 +82,9 @@ export default async function Home({
           <ContentRenderer content={post.html_content || ""} />
         </div>
       </div>
+      <p className="mt-4 px-2 underline">
+        <Link href="/">Back to all posts</Link>
+      </p>
     </div>
   );
 }
