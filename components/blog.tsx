@@ -68,24 +68,24 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
             >
               <Link
                 href={`/writing/${post.slug}`}
-                className="transition-colors py-2 text-slate-800 grid relative group-hover:bg-blue-500 group-hover:text-white"
+                className="transition-colors py-2 text-slate-800 grid relative group-hover:text-blue-500"
               >
                 <div className="flex gap-2 px-3 py-2.5">
                   <div className="flex items-center mr-2 ml-1">
                     {post.tags.length > 0 && (
                       <Icon
-                        className="text-slate-400 group-hover:text-white"
+                        className="text-slate-400 group-hover:text-blue-500"
                         icon={post.tags[0].name}
                       />
                     )}
                   </div>
                   <div className="grid">
                     <span className="font-medium">{post.title}</span>
-                    <span className="text-muted-foreground group-hover:text-white/80">
+                    <span className="text-muted-foreground group-hover:text-blue-500/80">
                       {post.excerpt}
                     </span>
                   </div>
-                  <div className="opacity-0 flex items-center group-hover:opacity-100 ml-auto mr-1.5 transition-all group-hover:text-white">
+                  <div className="opacity-0 flex items-center group-hover:opacity-100 ml-auto mr-1.5 transition-all group-hover:text-blue-500">
                     <Icon icon="arrowRight" height={18} width={18} />
                   </div>
                 </div>

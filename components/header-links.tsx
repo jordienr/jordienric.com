@@ -21,32 +21,26 @@ export const HeaderLinks = () => {
       icon: <FaGithubAlt {...iconProps} />,
       target: "_blank",
     },
-    {
-      name: "jordienric",
-      url: "https://www.linkedin.com/in/jordienric/",
-      icon: <FaLinkedinIn {...iconProps} />,
-      target: "_blank",
-    },
   ];
 
   return (
-    <div className="flex flex-wrap divide-x border">
+    <div className="flex divide-x border">
       {links.map((link, index) => (
         <motion.a
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: index * 0.2 }}
-          className="group p-1.5 gap-3 flex items-center px-3 transition-all font-medium hover:bg-blue-500 hover:border-blue-500 hover:text-white"
+          className="group p-1.5 gap-3 flex items-center px-3 transition-all font-medium hover:bg-white hover:text-blue-500"
           key={link.name}
           href={link.url}
           target={link.target}
           title={link.name}
         >
-          <span className="text-slate-500 transition-all group-hover:text-white/80 font-medium">
+          <span className="text-slate-500 transition-all group-hover:text-blue-500/80">
             {link.icon}
           </span>
           <span className="text-sm">{link.name}</span>
-          <span className="opacity-0 text-white group-hover:opacity-100 transition-all">
+          <span className="opacity-0 text-blue-500 group-hover:opacity-80 transition-all">
             <ArrowUpRight size="14" />
           </span>
         </motion.a>

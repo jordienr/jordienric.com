@@ -21,12 +21,12 @@ export default function RootLayout({
         <header className="container">
           <div className="mt-12 py-4">
             <h1 className="font-semibold text-xl px-3">Jordi Enric</h1>
-            <p className="flex px-3 text-lg items-center gap-1 text-slate-500">
+            <p className="px-3 text-lg gap-1 text-slate-500">
               Software Engineer at{" "}
               <Link
                 href="https://supabase.com?ref=jordienric"
                 target="_blank"
-                className="transition-all text-slate-900 font-medium inline-flex items-center gap-1.5 hover:underline pl-1"
+                className="transition-all text-slate-900 font-medium inline-flex items-center gap-1.5 ml-1.5 hover:underline"
               >
                 <Image
                   src="/logos/supabase-logo-icon.svg"
@@ -36,20 +36,9 @@ export default function RootLayout({
                 />
                 Supabase
               </Link>
-              building{" "}
-              <Link
-                href="https://www.zenblog.com"
-                target="_blank"
-                className="text-slate-900 font-medium inline-flex items-center gap-1.5 hover:underline px-1"
-              >
-                Zenblog
-              </Link>
-            </p>
-            <p className="flex px-3 text-lg items-center gap-1 text-slate-500">
-              Based in Mallorca, Spain.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex">
             <HeaderLinks />
           </div>
         </header>
