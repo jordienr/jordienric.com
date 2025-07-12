@@ -61,31 +61,31 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
           {posts?.map((post, idx) => (
             <motion.div
               key={post.slug}
-              initial={{ opacity: 0, y: 10, filter: "blur(10px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-              transition={{ duration: 0.3, delay: idx * 0.1 + 0.1 }}
+              initial={{ filter: "blur(10px)" }}
+              animate={{ filter: "blur(0px)" }}
+              transition={{ duration: 0.3 }}
               className="group hover:bg-white"
             >
               <Link
                 href={`/writing/${post.slug}`}
-                className="transition-colors py-2 text-slate-800 grid relative"
+                className="transition-colors py-2 text-slate-800 grid relative group-hover:bg-blue-500 group-hover:text-white"
               >
                 <div className="flex gap-2 px-3 py-2.5">
                   <div className="flex items-center mr-2 ml-1">
                     {post.tags.length > 0 && (
                       <Icon
-                        className="text-slate-400"
+                        className="text-slate-400 group-hover:text-white"
                         icon={post.tags[0].name}
                       />
                     )}
                   </div>
                   <div className="grid">
                     <span className="font-medium">{post.title}</span>
-                    <span className="text-muted-foreground">
+                    <span className="text-muted-foreground group-hover:text-white/80">
                       {post.excerpt}
                     </span>
                   </div>
-                  <div className="opacity-0 flex items-center group-hover:opacity-40 ml-auto mr-1.5 transition-all">
+                  <div className="opacity-0 flex items-center group-hover:opacity-100 ml-auto mr-1.5 transition-all group-hover:text-white">
                     <Icon icon="arrowRight" height={18} width={18} />
                   </div>
                 </div>

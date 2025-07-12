@@ -36,17 +36,17 @@ export const HeaderLinks = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: index * 0.2 }}
-          className="group p-1.5 gap-3 flex items-center px-3 transition-all font-medium hover:bg-white hover:border-slate-200"
+          className="group p-1.5 gap-3 flex items-center px-3 transition-all font-medium hover:bg-blue-500 hover:border-blue-500 hover:text-white"
           key={link.name}
           href={link.url}
           target={link.target}
           title={link.name}
         >
-          <span className="text-slate-500 transition-all group-hover:text-slate-700 font-medium">
+          <span className="text-slate-500 transition-all group-hover:text-white/80 font-medium">
             {link.icon}
           </span>
           <span className="text-sm">{link.name}</span>
-          <span className="opacity-0 group-hover:opacity-100 transition-all">
+          <span className="opacity-0 text-white group-hover:opacity-100 transition-all">
             <ArrowUpRight size="14" />
           </span>
         </motion.a>
