@@ -30,13 +30,13 @@ export const HeaderLinks = () => {
   ];
 
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap divide-x border">
       {links.map((link, index) => (
         <motion.a
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: index * 0.2 }}
-          className="group p-1.5 gap-3 flex items-center border border-transparent rounded-full px-3 transition-all font-medium hover:bg-white hover:border-slate-200"
+          className="group p-1.5 gap-3 flex items-center px-3 transition-all font-medium hover:bg-white hover:border-slate-200"
           key={link.name}
           href={link.url}
           target={link.target}
@@ -46,7 +46,7 @@ export const HeaderLinks = () => {
             {link.icon}
           </span>
           <span className="text-sm">{link.name}</span>
-          <span className="opacity-50 group-hover:opacity-100 transition-all">
+          <span className="opacity-0 group-hover:opacity-100 transition-all">
             <ArrowUpRight size="14" />
           </span>
         </motion.a>

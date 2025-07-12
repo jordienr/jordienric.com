@@ -6,6 +6,7 @@ import { Icon } from "./icon";
 import { useSearchParams } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 export const PostList = ({ posts }: { posts: Post[] }) => {
   const params = useSearchParams();
@@ -56,30 +57,21 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
             Nothing here yet.
           </div>
         )}
-        <div className="">
+        <div className="border-x border-t">
           {posts?.map((post, idx) => (
             <motion.div
               key={post.slug}
               initial={{ opacity: 0, y: 10, filter: "blur(10px)" }}
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               transition={{ duration: 0.3, delay: idx * 0.1 + 0.1 }}
-              className="group"
+              className="group hover:bg-white"
             >
               <Link
                 href={`/writing/${post.slug}`}
-                className="transition-colors rounded-xl duration-150 border  text-slate-800 border-slate-200 bg-white grid group-hover:border-slate-300"
+                className="transition-colors py-2 text-slate-800 grid relative"
               >
-                {post.cover_image ? (
-                  <div className="relative px-1.5 pt-1.5">
-                    <img
-                      src={post.cover_image}
-                      alt={post.title}
-                      className="object-cover h-[280px] w-full rounded-lg object-top"
-                    />
-                  </div>
-                ) : null}
                 <div className="flex gap-2 px-3 py-2.5">
-                  <div className="mt-1">
+                  <div className="flex items-center mr-2 ml-1">
                     {post.tags.length > 0 && (
                       <Icon
                         className="text-slate-400"
@@ -93,9 +85,12 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
                       {post.excerpt}
                     </span>
                   </div>
+                  <div className="opacity-0 flex items-center group-hover:opacity-40 ml-auto mr-1.5 transition-all">
+                    <Icon icon="arrowRight" height={18} width={18} />
+                  </div>
                 </div>
               </Link>
-              <hr className="my-2 mx-4 border-slate-100" />
+              <hr className="border-slate-200" />
             </motion.div>
           ))}
         </div>

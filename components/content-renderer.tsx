@@ -1,6 +1,6 @@
-import Link from "next/link";
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import { highlight } from "sugar-high";
-import ReactPlayer from "react-player";
 import parse, { domToReact } from "html-react-parser";
 import { VideoWrapper } from "./video-wrapper";
 
@@ -9,22 +9,6 @@ type Props = {
 };
 
 export const ContentRenderer = ({ content }: Props) => {
-  // images.forEach((img) => {
-  //   img.setAttribute("loading", "lazy");
-  //   img.setAttribute("decoding", "async");
-  // });
-
-  // links.forEach((link) => {
-  //   link.setAttribute("target", "_blank");
-  // });
-
-  // codeBlocks.forEach((codeBlock) => {
-  //   const text = codeBlock.textContent;
-  //   if (!text) return;
-  //   const highlighted = highlight(text);
-  //   codeBlock.innerHTML = highlighted;
-  // });
-
   const parseStyleString = (styleString: string) => {
     return styleString.split(";").reduce((acc: any, style) => {
       const [key, value] = style.split(":").map((s) => s?.trim());
@@ -76,7 +60,7 @@ export const ContentRenderer = ({ content }: Props) => {
     });
   };
   return (
-    <div className="prose prose-img:rounded-lg prose-img:shadow-lg prose-code:reset  prose-headings:tracking-tight prose-headings:text-2xl prose-headings:font-serif prose-headings:text-slate-800 prose-headings:font-light prose-headings:mt-24 [&_ul>li>p]:my-0">
+    <div className="prose prose-img:rounded-lg prose-img:shadow-lg prose-code:reset  prose-headings:tracking-tight prose-headings:text-2xl  prose-headings:text-slate-800 prose-headings:font-medium prose-headings:mt-24 [&_ul>li>p]:my-0 [&_h2]:mt-6">
       <CustomHTMLRenderer htmlString={content} />
     </div>
   );

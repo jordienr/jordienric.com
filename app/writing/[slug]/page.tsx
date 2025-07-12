@@ -5,6 +5,7 @@ import { blog } from "@/lib/cms";
 import { HiArrowUturnLeft } from "react-icons/hi2";
 import { Metadata } from "next";
 import Link from "next/link";
+import { Icon } from "@/components/icon";
 
 export const dynamic = "force-dynamic";
 
@@ -55,19 +56,17 @@ export default async function Home({
         href="/"
         className="inline-flex mt-6 px-2 items-center gap-2 justify-center mx-1 hover:bg-slate-50 rounded-xl text-slate-500 hover:text-slate-700 transition-all"
       >
-        <HiArrowUturnLeft className="w-4 h-4" /> Back
+        <Icon icon="arrowLeft" height={18} width={18} /> Back
       </Link>
-      <div className="bg-white border rounded-lg max-w-4xl mx-auto mt-6 px-4 py-2">
+      <div className="bg-white border max-w-4xl mx-auto mt-6 px-4 py-2">
         <div className="p-3">
           <p className="text-sm font-medium text-slate-400">
             {formatDate(post.published_at || "")}
           </p>
-          <h1 className="text-3xl font-medium font-serif text-slate-800">
-            {post.title}
-          </h1>
+          <h1 className="text-3xl font-medium text-slate-800">{post.title}</h1>
         </div>
-        <div className="p-3">
-          {post.cover_image && (
+        {post.cover_image && (
+          <div className="p-3">
             <img
               className="rounded-lg"
               src={post.cover_image}
@@ -76,8 +75,8 @@ export default async function Home({
               loading="lazy"
               alt={post.title || "Cover image"}
             />
-          )}
-        </div>
+          </div>
+        )}
         <div className="overflow-auto p-3">
           <ContentRenderer content={post.html_content || ""} />
         </div>
