@@ -42,7 +42,12 @@ export const ContentRenderer = ({ content }: Props) => {
           const { style, ...rest } = domNode.attribs || {};
           const parsedStyle = style ? parseStyleString(style) : undefined;
           return (
-            <a {...rest} style={parsedStyle} target="_blank">
+            <a
+              {...rest}
+              style={parsedStyle}
+              target="_blank"
+              className="text-blue-500 underline hover:text-blue-600"
+            >
               {domToReact(domNode.children)}
             </a>
           );
