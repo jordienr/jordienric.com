@@ -6,6 +6,7 @@ import { HiArrowUturnLeft } from "react-icons/hi2";
 import { Metadata } from "next";
 import Link from "next/link";
 import { Icon } from "@/components/icon";
+import { CustomImage } from "@/components/CustomImage";
 
 export const dynamic = "force-dynamic";
 
@@ -67,7 +68,7 @@ export default async function Home({
         </div>
         {post.cover_image && (
           <div className="p-3">
-            <img
+            <CustomImage
               className="rounded-lg"
               src={post.cover_image}
               height="400"

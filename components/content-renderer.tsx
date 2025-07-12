@@ -3,6 +3,7 @@
 import { highlight } from "sugar-high";
 import parse, { domToReact } from "html-react-parser";
 import { VideoWrapper } from "./video-wrapper";
+import { CustomImage } from "./CustomImage";
 
 type Props = {
   content: string;
@@ -33,7 +34,8 @@ export const ContentRenderer = ({ content }: Props) => {
         if (domNode.name === "img") {
           const { style, ...rest } = domNode.attribs || {};
           const parsedStyle = style ? parseStyleString(style) : undefined;
-          return <img {...rest} style={parsedStyle} />;
+
+          return <CustomImage {...rest} style={parsedStyle} />;
         }
 
         if (domNode.name === "a") {

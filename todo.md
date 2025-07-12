@@ -1,0 +1,1 @@
+- [x] Create a <CustomImage> component that opens images fullscreen on click and use it in content-renderer.tsx
