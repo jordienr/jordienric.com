@@ -10,6 +10,8 @@ type Props = {
 };
 
 export const ContentRenderer = ({ content }: Props) => {
+  console.log("CONTENT", content);
+
   const parseStyleString = (styleString: string) => {
     return styleString.split(";").reduce((acc: any, style) => {
       const [key, value] = style.split(":").map((s) => s?.trim());
@@ -56,10 +58,12 @@ export const ContentRenderer = ({ content }: Props) => {
         if (domNode.name === "pre") {
           const { style, ...rest } = domNode.attribs || {};
           const parsedStyle = style ? parseStyleString(style) : undefined;
-          const highlighted = highlight(domNode?.innerHTML);
+
+          const highlighted = highlight(domNode.children[0].children[0].data);
+
           return (
             <pre {...rest} style={parsedStyle}>
-              {highlighted}
+              <code dangerouslySetInnerHTML={{ __html: highlighted }} />
             </pre>
           );
         }
