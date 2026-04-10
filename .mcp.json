@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "uidotsh": {
+      "type": "http",
+      "url": "https://ui.sh/mcp?agent=codex",
+      "headers": {
+        "Authorization": "Bearer ${UIDOTSH_TOKEN}"
+      }
+    }
+  }
+}

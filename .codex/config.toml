@@ -1,0 +1,4 @@
+
+[mcp_servers.uidotsh]
+url = "https://ui.sh/mcp?agent=codex"
+bearer_token_env_var = "UIDOTSH_TOKEN"
