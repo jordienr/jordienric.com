@@ -2,11 +2,20 @@
 
 import { ContentRenderer } from "@/components/content-renderer";
 import { blog } from "@/lib/cms";
-import { HiArrowUturnLeft } from "react-icons/hi2";
 import { Metadata } from "next";
 import Link from "next/link";
 import { Icon } from "@/components/icon";
 import { CustomImage } from "@/components/CustomImage";
+import {
+  author,
+  getPostDescription,
+  getPostImage,
+  getPostJsonLd,
+  getPostKeywords,
+  getPostUrl,
+  getValidDate,
+  siteName,
+} from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
@@ -14,24 +23,46 @@ export async function generateMetadata({
   params: { slug },
 }: any): Promise<Metadata> {
   const { data: post } = await blog.posts.get({ slug });
+  const postUrl = getPostUrl(post);
+  const description = getPostDescription(post);
+  const image = getPostImage(post);
+  const publishedAt = getValidDate(post.published_at)?.toISOString();
 
   return {
-    title: `${post.title} - Jordi Enric`,
-    description: post.excerpt,
-    authors: {
-      name: "Jordi Enric",
-      url: "https://jordienric.com",
-    },
+    title: post.title,
+    description,
+    authors: [
+      author,
+      ...post.authors.map((postAuthor) => ({ name: postAuthor.name })),
+    ],
+    keywords: getPostKeywords(post),
     alternates: {
-      canonical: `https://jordienric.com/writing/${post.slug}`,
+      canonical: postUrl,
     },
     openGraph: {
+      type: "article",
+      url: postUrl,
+      title: post.title,
+      description,
+      siteName,
+      publishedTime: publishedAt,
+      authors: [
+        author.name,
+        ...post.authors.map((postAuthor) => postAuthor.name),
+      ],
+      tags: post.tags.map((tag) => tag.name),
       images: [
         {
-          url: `https://www.zenblog.com/api/og?title=${post.title}&emoji=🌴&url=jordienric.com`,
+          url: image,
           alt: post.title,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description,
+      images: [image],
     },
   };
 }
@@ -42,6 +73,7 @@ export default async function Home({
   params: { slug: string };
 }) {
   const { data: post } = await blog.posts.get({ slug });
+  const jsonLd = getPostJsonLd(post);
 
   const formatDate = (date: string) => {
     return new Date(date).toLocaleDateString("en-US", {
@@ -53,6 +85,10 @@ export default async function Home({
 
   return (
     <div className="container">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Link
         href="/"
         className="inline-flex mt-6 px-2 items-center gap-2 justify-center mx-1 hover:bg-slate-50 rounded-xl text-slate-500 hover:text-slate-700 transition-all"

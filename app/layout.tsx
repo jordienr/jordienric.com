@@ -3,21 +3,94 @@ import "./globals.css";
 import Link from "next/link";
 import { HeaderLinks } from "@/components/header-links";
 import { IBM_Plex_Sans } from "next/font/google";
+import Script from "next/script";
+import { Metadata } from "next";
+import { author, siteDescription, siteName, siteUrl } from "@/lib/seo";
 
 const mainFont = IBM_Plex_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: siteName,
+    template: `%s - ${siteName}`,
+  },
+  description: siteDescription,
+  applicationName: siteName,
+  authors: [author],
+  creator: author.name,
+  publisher: author.name,
+  alternates: {
+    canonical: "/",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName,
+    title: siteName,
+    description: siteDescription,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteName,
+    description: siteDescription,
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${siteUrl}#website`,
+    name: siteName,
+    description: siteDescription,
+    url: siteUrl,
+    author: {
+      "@type": "Person",
+      name: author.name,
+      url: author.url,
+    },
+  };
+
   return (
     <html lang="en" className={mainFont.className}>
-      <head />
       <body className="selection:bg-yellow-200 antialiased [&_a]:cursor-default tracking-[-0.017em] bg-slate-50/70">
+        <Script
+          defer
+          data-domain="jordienric.com"
+          src="https://plausible.io/js/script.js"
+          strategy="afterInteractive"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         <header className="container">
           <div className="mt-12 py-4">
             <h1 className="font-semibold text-xl px-3">Jordi Enric</h1>

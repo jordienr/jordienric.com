@@ -1,25 +1,26 @@
 import { MetadataRoute } from "next";
 import { blog } from "@/lib/cms";
+import { getPostUrl, getValidDate, siteUrl } from "@/lib/seo";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const { data: posts } = await blog.posts.list({});
 
-  const baseUrl = "https://jordienric.com";
+  const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,
-      lastModified: new Date(),
+      url: siteUrl,
+      lastModified: now,
     },
     {
-      url: `${baseUrl}/cv`,
-      lastModified: new Date(),
+      url: `${siteUrl}/cv`,
+      lastModified: now,
     },
   ];
 
   const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${baseUrl}/writing/${post.slug}`,
-    lastModified: new Date(post.published_at || ""),
+    url: getPostUrl(post),
+    lastModified: getValidDate(post.published_at) || now,
   }));
 
   return [...staticRoutes, ...postRoutes];
