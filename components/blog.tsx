@@ -35,21 +35,19 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1 }}
     >
-      <h2 className="font-semibold p-1 mb-4 px-3 group mt-12">
+      <div className="font-medium group my-4 space-x-1 *:px-3 *:h-10 *:bg-slate-100 *:rounded-full">
         <Link href={getHref("thought")} className={classNames("thought")}>
           Thoughts
         </Link>
-        ,{" "}
+        
         <Link href={getHref("note")} className={classNames("note")}>
-          notes
-        </Link>{" "}
-        <span className="font-serif italic font-thin text-lg text-slate-600">
-          &
-        </span>{" "}
-        <Link href={getHref("bookmark")} className={classNames("bookmark")}>
-          bookmarks
+          Notes
         </Link>
-      </h2>
+
+        <Link href={getHref("bookmark")} className={classNames("bookmark")}>
+          Bookmarks
+        </Link>
+      </div>
 
       <div className="grid gap-px">
         {posts.length === 0 && (
@@ -57,41 +55,24 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
             Nothing here yet.
           </div>
         )}
-        <div className="border-x border-t">
+        <div className="divide-y">
           {posts?.map((post, idx) => (
-            <motion.div
-              key={post.slug}
-              initial={{ filter: "blur(10px)" }}
-              animate={{ filter: "blur(0px)" }}
-              transition={{ duration: 0.3 }}
-              className="group hover:bg-white"
+            <div
+              className="group"
             >
               <Link
                 href={`/writing/${post.slug}`}
-                className="transition-colors py-2 text-slate-800 grid relative group-hover:text-blue-500"
+                className="py-3 px-3 text-slate-800 flex"
               >
-                <div className="flex gap-2 px-3 py-2.5">
-                  <div className="flex items-center mr-2 ml-1">
-                    {post.tags.length > 0 && (
-                      <Icon
-                        className="text-slate-400 group-hover:text-blue-500"
-                        icon={post.tags[0].name}
-                      />
-                    )}
-                  </div>
+                
                   <div className="grid">
                     <span className="font-medium">{post.title}</span>
                     <span className="text-muted-foreground group-hover:text-blue-500/80">
                       {post.excerpt}
                     </span>
                   </div>
-                  <div className="opacity-0 flex items-center group-hover:opacity-100 ml-auto mr-1.5 transition-all group-hover:text-blue-500">
-                    <Icon icon="arrowRight" height={18} width={18} />
-                  </div>
-                </div>
               </Link>
-              <hr className="border-slate-200" />
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
