@@ -56,9 +56,10 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
           </div>
         )}
         <div className="divide-y">
-          {posts?.map((post, idx) => (
+          {posts?.map((post) => (
             <div
               className="group"
+              key={post.slug}
             >
               <Link
                 href={`/writing/${post.slug}`}
