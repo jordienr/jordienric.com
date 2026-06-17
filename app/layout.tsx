@@ -1,7 +1,6 @@
 import Image from "next/image";
 import "./globals.css";
 import Link from "next/link";
-import { HeaderLinks } from "@/components/header-links";
 import Script from "next/script";
 import { Metadata } from "next";
 import { author, siteDescription, siteName, siteUrl } from "@/lib/seo";
@@ -86,21 +85,19 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <header className="container">
-          <div className="mb-6 mt-24 px-2">
-            <h1 className="font-semibold text-xl">Jordi Enric</h1>
-            <p className="text-lg gap-1 text-slate-500">
-              Software Engineer at{" "}
+          <div className="mb-6 mt-24 px-3 text-xl font-medium">
+            <h1 className="">Jordi Enric</h1>
+            <p className="text-balance mt-2">
+              Frontend Software Engineer at{" "}
               <Link
                 href="https://supabase.com?ref=jordienric"
                 target="_blank"
-                className="underline text-slate-800 font-semibold"
+                className="underline"
               >
                 Supabase
-              </Link>
+              </Link> based in Mallorca. You can find me on <Link href="https://twitter.com/jordienr" target="_blank" className="underline">Twitter</Link> and <Link href="https://github.com/jordienr" target="_blank" className="underline">GitHub</Link>. 
             </p>
           </div>
-          
-          <HeaderLinks />
           
         </header>
 

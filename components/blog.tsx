@@ -63,12 +63,12 @@ export const PostList = ({ posts }: { posts: Post[] }) => {
             >
               <Link
                 href={`/writing/${post.slug}`}
-                className="py-3 px-3 text-slate-800 flex"
+                className="py-3 px-3 text-slate-800 flex hover:underline"
               >
                 
-                  <div className="grid">
-                    <span className="font-medium">{post.title}</span>
-                    <span className="text-muted-foreground group-hover:text-blue-500/80">
+                  <div className="grid font-medium">
+                    <span className="">{post.title}</span>
+                    <span className="text-muted-foreground">
                       {post.excerpt}
                     </span>
                   </div>
