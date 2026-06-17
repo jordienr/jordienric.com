@@ -1,12 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Post } from "zenblog/dist/types";
-import { Icon } from "./icon";
+import type { Post } from "zenblog/types";
 import { useSearchParams } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 
 export const PostList = ({ posts }: { posts: Post[] }) => {
   const params = useSearchParams();

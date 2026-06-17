@@ -2,7 +2,7 @@ import Image from "next/image";
 import "./globals.css";
 import Link from "next/link";
 import Script from "next/script";
-import { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { author, siteDescription, siteName, siteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -46,10 +46,11 @@ export const metadata: Metadata = {
     title: siteName,
     description: siteDescription,
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

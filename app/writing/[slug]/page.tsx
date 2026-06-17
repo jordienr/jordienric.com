@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-
 import { ContentRenderer } from "@/components/content-renderer";
 import { blog } from "@/lib/cms";
 import { Metadata } from "next";
@@ -19,22 +17,30 @@ import {
 
 export const dynamic = "force-dynamic";
 
+type PageProps = {
+  params: Promise<{ slug: string }>;
+};
+
 export async function generateMetadata({
-  params: { slug },
-}: any): Promise<Metadata> {
+  params,
+}: PageProps): Promise<Metadata> {
+  const { slug } = await params;
   const { data: post } = await blog.posts.get({ slug });
   const postUrl = getPostUrl(post);
   const description = getPostDescription(post);
   const image = getPostImage(post);
   const publishedAt = getValidDate(post.published_at)?.toISOString();
+  const authorNames = Array.from(
+    new Set([author.name, ...post.authors.map((postAuthor) => postAuthor.name)])
+  );
+  const metadataAuthors = authorNames.map((name) =>
+    name === author.name ? author : { name }
+  );
 
   return {
     title: post.title,
     description,
-    authors: [
-      author,
-      ...post.authors.map((postAuthor) => ({ name: postAuthor.name })),
-    ],
+    authors: metadataAuthors,
     keywords: getPostKeywords(post),
     alternates: {
       canonical: postUrl,
@@ -46,10 +52,7 @@ export async function generateMetadata({
       description,
       siteName,
       publishedTime: publishedAt,
-      authors: [
-        author.name,
-        ...post.authors.map((postAuthor) => postAuthor.name),
-      ],
+      authors: authorNames,
       tags: post.tags.map((tag) => tag.name),
       images: [
         {
@@ -67,11 +70,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function Home({
-  params: { slug },
-}: {
-  params: { slug: string };
-}) {
+export default async function Home({ params }: PageProps) {
+  const { slug } = await params;
   const { data: post } = await blog.posts.get({ slug });
   const jsonLd = getPostJsonLd(post);
 

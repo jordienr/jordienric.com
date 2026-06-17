@@ -1,4 +1,4 @@
-import { Post, PostWithContent } from "zenblog/dist/types";
+import type { Post, PostWithContent } from "zenblog/types";
 
 export const siteUrl = "https://jordienric.com";
 export const siteName = "Jordi Enric";
@@ -9,7 +9,7 @@ export const author = {
   url: siteUrl,
 };
 
-export function absoluteUrl(path = "") {
+function absoluteUrl(path = "") {
   if (!path) {
     return siteUrl;
   }
@@ -25,11 +25,15 @@ export function getPostUrl(post: Pick<Post, "slug">) {
   return absoluteUrl(`/writing/${post.slug}`);
 }
 
-export function getPostDescription(post: Pick<Post, "excerpt" | "title">) {
+export function getPostDescription(
+  post: Pick<Post, "title"> & Partial<Pick<Post, "excerpt">>
+) {
   return post.excerpt || `Read ${post.title} by ${author.name}.`;
 }
 
-export function getPostImage(post: Pick<Post, "cover_image" | "title">) {
+export function getPostImage(
+  post: Pick<Post, "title"> & Partial<Pick<Post, "cover_image">>
+) {
   if (post.cover_image) {
     return absoluteUrl(post.cover_image);
   }
@@ -53,17 +57,19 @@ export function getValidDate(date?: string) {
   return Number.isNaN(parsed.getTime()) ? undefined : parsed;
 }
 
-export function getPostKeywords(post: Pick<Post, "tags" | "category">) {
+export function getPostKeywords(
+  post: Partial<Pick<Post, "tags" | "category">>
+) {
   return [
     post.category?.name,
-    ...post.tags.map((tag) => tag.name),
+    ...(post.tags || []).map((tag) => tag.name),
     "Jordi Enric",
     "Supabase",
     "software engineering",
   ].filter(Boolean) as string[];
 }
 
-export function stripHtml(html: string) {
+function stripHtml(html: string) {
   return html
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")

@@ -84,21 +84,12 @@ export const Icon = ({
   width?: number;
   height?: number;
 }) => {
-  const DefaultIcon = () => ICONS["note"](width, height);
-
-  if (!(icon in ICONS) || !icon) {
-    return (
-      <div className={className} style={{ width, height }}>
-        <DefaultIcon />
-      </div>
-    );
-  }
-
-  const Component = () => ICONS[icon as keyof typeof ICONS](width, height);
+  const renderIcon =
+    icon in ICONS ? ICONS[icon as keyof typeof ICONS] : ICONS.note;
 
   return (
     <div className={className} style={{ width, height }}>
-      <Component />
+      {renderIcon(width, height)}
     </div>
   );
 };
