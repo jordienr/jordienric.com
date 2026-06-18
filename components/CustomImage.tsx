@@ -61,8 +61,6 @@ export const CustomImage: React.FC<CustomImageProps> = ({
             style={{
               maxWidth: "90vw",
               maxHeight: "90vh",
-              boxShadow: "0 4px 32px rgba(0,0,0,0.5)",
-              borderRadius: 8,
             }}
             onClick={(e) => {
               e.stopPropagation();

@@ -89,23 +89,17 @@ export default async function Home({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Link
-        href="/"
-        className="inline-flex mt-6 px-2 items-center gap-2 justify-center mx-1 hover:bg-slate-50 rounded-xl text-slate-500 hover:text-slate-700 transition-all"
-      >
-        <Icon icon="arrowLeft" height={18} width={18} /> Back
-      </Link>
-      <div className="bg-white border max-w-4xl mx-auto mt-6 px-4 py-2">
         <div className="p-3">
           <p className="text-sm font-medium text-slate-400">
             {formatDate(post.published_at || "")}
           </p>
           <h1 className="text-3xl font-medium text-slate-800">{post.title}</h1>
         </div>
+      <div className="bg-white border max-w-6xl mx-auto mt-6 px-4 py-2 rounded-2xl">
         {post.cover_image && (
           <div className="p-3">
             <CustomImage
-              className="rounded-lg"
+              className=""
               src={post.cover_image}
               height="400"
               width={(16 / 9) * 400}
@@ -117,10 +111,7 @@ export default async function Home({ params }: PageProps) {
         <div className="overflow-auto p-3">
           <ContentRenderer content={post.html_content || ""} />
         </div>
-      </div>
-      <p className="mt-4 px-2 underline">
-        <Link href="/">Back to all posts</Link>
-      </p>
+      </div>      
     </div>
   );
 }

@@ -88,7 +88,7 @@ const parserOptions: HTMLReactParserOptions = {
 
 export const ContentRenderer = ({ content }: Props) => {
   return (
-    <div className="prose prose-img:rounded-lg prose-img:shadow-lg prose-code:reset  prose-headings:tracking-tight prose-headings:text-2xl  prose-headings:text-slate-800 prose-headings:font-medium prose-headings:mt-24 [&_ul>li>p]:my-0 [&_h2]:mt-6">
+    <div className="prose prose-code:reset  prose-headings:tracking-tight prose-headings:text-2xl  prose-headings:text-slate-800 prose-headings:font-medium prose-headings:mt-24 [&_ul>li>p]:my-0 [&_h2]:mt-6">
       {parse(content, parserOptions)}
     </div>
   );
