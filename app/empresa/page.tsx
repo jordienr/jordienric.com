@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function EmpresaPage() {
   return (
     <main lang="es" className="container px-3">
-      <p>NOMBRE DE EMPRESA: JORDI ENRIC ROIG RAMIS</p>
+      <p>NOMBRE LEGAL: ROIG RAMIS JORDI-ENRIC</p>
     </main>
   );
 }
